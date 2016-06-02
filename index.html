@@ -1,0 +1,156 @@
+<html>
+  <head>
+    <title>Euro 2016</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  </head>
+  <body>
+    <div class="container">
+      <ul class="nav nav-tabs">
+        <li class="active"><a data-toggle="tab" href="#tab_managers">Managers</a></li>
+        <li><a data-toggle="tab" href="#tab_players">Players</a></li>
+        <li><a data-toggle="tab" href="#tab_actions">Actions</a></li>
+        <li><a data-toggle="tab" href="#tab_rules">Rules</a></li>
+      </ul>
+      <div class="tab-content">
+        <div id="tab_managers" class="tab-pane active">
+          <table class="table">
+            <thead>
+              <tr><th>Manager</th><th>Points</th><th>Players</th></tr>
+            </thead>
+            <tbody id="table_managers">
+            </tbody>
+          </table>
+        </div>
+        <div id="tab_players" class="tab-pane">
+          <table class="table">
+            <thead>
+              <tr><th>Player</th><th>Position</th><th>Points</th><th>Manager</th></tr>
+            </thead>
+            <tbody id="table_players">
+            </tbody>
+          </table>
+        </div>
+        <div id="tab_actions" class="tab-pane">
+          <table class="table">
+            <thead>
+              <tr><th>Action</th><th>Player</th><th>Points</th><th>Manager</th></tr>
+            </thead>
+            <tbody id="table_actions">
+            </tbody>
+          </table>
+        </div>
+        <div id="tab_rules" class="tab-pane">
+          <h3>Selection</h3>
+          <p>Each team consists of 11 players (no substitutes) with the following restrictions:</p>
+          <ul>
+            <li>1 Goalkeeper (GK)</li>
+            <li>3 to 5 Defenders (DF)</li>
+            <li>3 to 5 Midfielders (MF)</li>
+            <li>1 to 3 Forwards (FW)</li>
+          </ul>
+          <h3>Draft</h3>
+          <p>
+            The draft will take place from Thursday 2nd June 2016 to Thursday 9th June 2016 inclusive.
+            On each round every manager will choose a single player to join their team.
+            Each manager should do their scouting in advance, so at least 2 rounds can be completed each day.
+            The order will be randomly generated and will alternate on each round.
+            For example, if there are 3 teams denoted A, B, C, the order will be: A-B-C-C-B-A ...
+            The draft is completed as soon as all teams have 11 players.
+            At the end of the draft all teams must comply with the selection restrictions.
+          </p>
+          <h3>Transfers</h3>
+            A manager can exchange one of their players for an unselected player on a first-come-first-served basis.
+            There are no restrictions on the number of transfers allowed.
+            Teams must comply with the selection restrictions at all times.
+            Transfers can be submitted at any time after the draft is completed, and are immediately binding.
+            However, ownership for the purpose of assigning points will only be transferred at the following times:
+          </p>
+          <ul>
+            <li>00:01 BST, Friday 10th June 2016</li>
+            <li>00:01 BST, Wednesday 15th June 2016</li>
+            <li>00:01 BST, Sunday 19th June 2016</li>
+            <li>00:01 BST, Saturday 25th June 2016</li>
+            <li>00:01 BST, Thursday 30th June 2016</li>
+            <li>00:01 BST, Wednesday 6th July 2016</li>
+            <li>00:01 BST, Sunday 10th July 2016</li>
+          </ul>
+          <h3>Points</h3>
+          <p>
+            Points are awarded to or deducted from players for the following actions.
+            These points are assigned to the team owning the player at the time of the action.
+            Positions are determined by the list of players, not apparent playing position in a given match.
+            UEFA Euro 2016 official tournament reports are used to calculate points in all cases.
+          </p>
+          <table class="table">
+            <thead>
+              <tr><th>Action</th><th>GK</th><th>DF</th><th>MF</th><th>FW</th></tr>
+            </thead>
+            <tbody>
+              <tr class="success">
+                <td>Goal (excl. Shootout)</td>
+                <td id="Goal_GK">N/A</td>
+                <td id="Goal_DF">N/A</td>
+                <td id="Goal_MF">N/A</td>
+                <td id="Goal_FW">N/A</td>
+              </tr>
+              <tr class="success">
+                <td>Assist</td>
+                <td id="Assist_GK">N/A</td>
+                <td id="Assist_DF">N/A</td>
+                <td id="Assist_MF">N/A</td>
+                <td id="Assist_FW">N/A</td>
+              </tr>
+              <tr class="success">
+                <td>Clean Sheet (Full Time *)</td>
+                <td id="CleanSheet_GK">N/A</td>
+                <td id="CleanSheet_DF">N/A</td>
+                <td id="CleanSheet_MF">N/A</td>
+                <td id="CleanSheet_FW">N/A</td>
+              </tr>
+              <tr class="success">
+                <td>Scored Penalty (Shootout)</td>
+                <td id="ScoredPenalty_GK">N/A</td>
+                <td id="ScoredPenalty_DF">N/A</td>
+                <td id="ScoredPenalty_MF">N/A</td>
+                <td id="ScoredPenalty_FW">N/A</td>
+              </tr>
+              <tr class="success">
+                <td>Penalty Save (incl. Shootout)</td>
+                <td id="SavedPenalty_GK">N/A</td>
+                <td id="SavedPenalty_DF">N/A</td>
+                <td id="SavedPenalty_MF">N/A</td>
+                <td id="SavedPenalty_FW">N/A</td>
+              </tr>
+              <tr class="danger">
+                <td>Own Goal</td>
+                <td id="OwnGoal_GK">N/A</td>
+                <td id="OwnGoal_DF">N/A</td>
+                <td id="OwnGoal_MF">N/A</td>
+                <td id="OwnGoal_FW">N/A</td>
+              </tr>
+              <tr class="danger">
+                <td>Missed/Saved Penalty (incl. Shootout)</td>
+                <td id="MissedPenalty_GK">N/A</td>
+                <td id="MissedPenalty_DF">N/A</td>
+                <td id="MissedPenalty_MF">N/A</td>
+                <td id="MissedPenalty_FW">N/A</td>
+              </tr>
+              <tr class="danger">
+                <td>Red Card</td>
+                <td id="RedCard_GK">N/A</td>
+                <td id="RedCard_DF">N/A</td>
+                <td id="RedCard_MF">N/A</td>
+                <td id="RedCard_FW">N/A</td>
+              </tr>
+            </tbody>
+          </table>
+          <p>* Players must appear before full time to gain points.</p>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
