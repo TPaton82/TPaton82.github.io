@@ -3,5 +3,8 @@
   {"Manager": {"manager": "Iain Scott", "country": "Scotland"}},
   {"Manager": {"manager": "Mitesh Patel", "country": "England"}},
   {"Manager": {"manager": "Stephen Brooks", "country": "England"}},
-  {"Manager": {"manager": "Tom Paton", "country": "England"}}
+  {"Manager": {"manager": "Tom Paton", "country": "England"}},
+  
+  {"Draft": {"manager": "Ed Santos", "player": "Antoine Griezmann"}},
+  {"Draft": {"manager": "Mitesh Patel", "player": "Thomas Müller"}}
 ]
