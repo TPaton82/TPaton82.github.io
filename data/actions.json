@@ -11,5 +11,11 @@
   {"Draft": {"manager": "Stephen Brooks", "player": "Harry Kane"}},
   {"Draft": {"manager": "Iain Scott", "player": "Manuel Neuer"}},
   
-  {"Draft": {"manager": "Iain Scott", "player": "Laurent Koscielny"}}
+  {"Draft": {"manager": "Iain Scott", "player": "Laurent Koscielny"}},
+  {"Draft": {"manager": "Stephen Brooks", "player": "Hugo Lloris"}},
+  {"Draft": {"manager": "Tom Paton", "player": "David Alaba"}},
+  {"Draft": {"manager": "Mitesh Patel", "player": "Andrés Iniesta"}},
+  {"Draft": {"manager": "Ed Santos", "player": "Paul Pogba"}},
+  
+  {"Draft": {"manager": "Ed Santos", "player": "Mesut Özil"}}
 ]
