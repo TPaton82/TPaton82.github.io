@@ -6,5 +6,10 @@
   {"Manager": {"manager": "Tom Paton", "country": "England"}},
   
   {"Draft": {"manager": "Ed Santos", "player": "Antoine Griezmann"}},
-  {"Draft": {"manager": "Mitesh Patel", "player": "Thomas Müller"}}
+  {"Draft": {"manager": "Mitesh Patel", "player": "Thomas Müller"}},
+  {"Draft": {"manager": "Tom Paton", "player": "Cristiano Ronaldo"}},
+  {"Draft": {"manager": "Stephen Brooks", "player": "Harry Kane"}},
+  {"Draft": {"manager": "Iain Scott", "player": "Manuel Neuer"}},
+  
+  {"Draft": {"manager": "Iain Scott", "player": "Laurent Koscielny"}}
 ]
