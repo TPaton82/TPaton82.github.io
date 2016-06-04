@@ -17,5 +17,8 @@
   {"Draft": {"manager": "Mitesh Patel", "player": "Andrés Iniesta"}},
   {"Draft": {"manager": "Ed Santos", "player": "Paul Pogba"}},
   
-  {"Draft": {"manager": "Ed Santos", "player": "Mesut Özil"}}
+  {"Draft": {"manager": "Ed Santos", "player": "Mesut Özil"}},
+  {"Draft": {"manager": "Mitesh Patel", "player": "Jérôme Boateng"}},
+  {"Draft": {"manager": "Tom Paton", "player": "Kevin De Bruyne"}},
+  {"Draft": {"manager": "Stephen Brooks", "player": "Sergio Ramos"}}
 ]
