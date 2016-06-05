@@ -31,5 +31,9 @@
   
   {"Draft": {"manager": "Ed Santos", "player": "Mats Hummels"}},
   {"Draft": {"manager": "Mitesh Patel", "player": "Patrice Evra"}},
-  {"Draft": {"manager": "Tom Paton", "player": "Robert Lewandowski"}}
+  {"Draft": {"manager": "Tom Paton", "player": "Robert Lewandowski"}},
+  {"Draft": {"manager": "Stephen Brooks", "player": "Bacary Sagna"}},
+  {"Draft": {"manager": "Iain Scott", "player": "Jordi Alba"}},
+  
+  {"Draft": {"manager": "Iain Scott", "player": "Olivier Giroud"}}
 ]
