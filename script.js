@@ -149,6 +149,7 @@ function getRow(value) {
 }
 
 function getFlag(person) {
+    return "  ";
     var img = $("<img>");
     img.attr("src", "images/flags/" + person["country"] + ".GIF");
     img.attr("style", "height: 16; width: 24; margin: 0 8");
