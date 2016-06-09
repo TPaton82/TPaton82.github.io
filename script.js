@@ -64,9 +64,9 @@ $.getJSON("data/squads.json", function(squads) {
                 } else if (type == "Transfer") {
                     tr.append($("<td>").append(getArrow("in")).append(getFlag(playerDict[data["in"]])).append(data["in"]).append($("<br>")).append(getArrow("out")).append(getFlag(playerDict[data["out"]])).append(data["out"]));
                     tr.append($("<td>"));
-                    tr.append($("<td>").append(getFlag(managerDict[data["manager"]])).append(data["manager"]));
+                    tr.append($("<td>").append(getFlag(managerDict[playerDict[data["out"]]["manager"]])).append(playerDict[data["out"]]["manager"]));
+                    playerDict[data["in"]]["manager"] = playerDict[data["out"]]["manager"];
                     playerDict[data["out"]]["manager"] = null;
-                    playerDict[data["in"]]["manager"] = data["manager"];
                 } else {
                     tr.append($("<td>").append(getFlag(playerDict[data])).append(data));
                     tr.append($("<td>").text(points));
