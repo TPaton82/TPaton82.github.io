@@ -71,5 +71,7 @@
   {"Draft": {"manager": "Stephen Brooks", "player": "Marc Janko"}},
   {"Draft": {"manager": "Iain Scott", "player": "Benedikt Höwedes"}},
   
-  {"Transfer": {"out": "Mats Hummels", "in": "Mario Gómez"}}
+  {"Transfer": {"out": "Mats Hummels", "in": "Mario Gómez"}},
+  
+  {"Assist": "Dimitri Payet", "Goal": "Olivier Giroud"}
 ]
