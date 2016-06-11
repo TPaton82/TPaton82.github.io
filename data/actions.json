@@ -73,5 +73,7 @@
   
   {"Transfer": {"out": "Mats Hummels", "in": "Mario Gómez"}},
   
-  {"Assist": "Dimitri Payet", "Goal": "Olivier Giroud"}
+  {"Assist": "Dimitri Payet", "Goal": "Olivier Giroud"},
+  {"Goal": "Bogdan Stancu"},
+  {"Assist": "N'Golo Kanté", "Goal": "Dimitri Payet"}
 ]
