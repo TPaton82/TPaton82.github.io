@@ -92,5 +92,7 @@
   {"Goal": "Eric Dier"},
   {"Assist": "Georgi Shchennikov", "Goal": "Vasili Berezutski"},
   
-  {"Goal": "Luka Modrić"}
+  {"Goal": "Luka Modrić"},
+  
+  {"Transfer": {"out": "Arda Turan", "in": "Ivan Perišić"}}
 ]
