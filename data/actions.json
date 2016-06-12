@@ -108,6 +108,12 @@
   {"Clean Sheet": "Łukasz Piszczek"},
   
   {"Assist": "Toni Kroos", "Goal": "Shkodran Mustafi"},
+  {"Assist": "Mesut Özil", "Goal": "Bastian Schweinsteiger"},
+  {"Clean Sheet": "Manuel Neuer"},
+  {"Clean Sheet": "Shkodran Mustafi"},
+  {"Clean Sheet": "Jonas Hector"},
+  {"Clean Sheet": "Benedikt Höwedes"},
+  {"Clean Sheet": "Jérôme Boateng"},
   
   {"Transfer": {"out": "Arda Turan", "in": "Ivan Perišić"}}
 ]
