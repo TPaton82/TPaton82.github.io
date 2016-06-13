@@ -125,5 +125,7 @@
   {"Assist": "Séamus Coleman", "Goal": "Wes Hoolahan"},
   {"Assist": "Zlatan Ibrahimović", "Own Goal": "Ciaran Clark"},
   
+  {"Assist": "Leonardo Bonucci", "Goal": "Emanuele Giaccherini"},
+  
   {"Transfer": {"out": "Arda Turan", "in": "Ivan Perišić"}}
 ]
