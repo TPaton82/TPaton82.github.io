@@ -115,5 +115,12 @@
   {"Clean Sheet": "Benedikt Höwedes"},
   {"Clean Sheet": "Jérôme Boateng"},
   
+  {"Assist": "Andrés Iniesta", "Goal": "Gerard Piqué"},
+  {"Clean Sheet": "David de Gea"},
+  {"Clean Sheet": "Gerard Piqué"},
+  {"Clean Sheet": "Sergio Ramos"},
+  {"Clean Sheet": "Juanfran"},
+  {"Clean Sheet": "Jordi Alba"},
+  
   {"Transfer": {"out": "Arda Turan", "in": "Ivan Perišić"}}
 ]
