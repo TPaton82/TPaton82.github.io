@@ -127,6 +127,12 @@
   
   {"Assist": "Leonardo Bonucci", "Goal": "Emanuele Giaccherini"},
   {"Assist": "Antonio Candreva", "Goal": "Graziano Pellè"},
+  {"Clean Sheet": "Gianluigi Buffon"},
+  {"Clean Sheet": "Mattia De Sciglio"},
+  {"Clean Sheet": "Giorgio Chiellini"},
+  {"Clean Sheet": "Matteo Darmian"},
+  {"Clean Sheet": "Andrea Barzagli"},
+  {"Clean Sheet": "Leonardo Bonucci"},
   
   {"Transfer": {"out": "Arda Turan", "in": "Ivan Perišić"}}
 ]
