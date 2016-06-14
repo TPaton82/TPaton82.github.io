@@ -147,5 +147,15 @@
   {"Assist": "André Gomes", "Goal": "Nani"},
   {"Assist": "Jóhann Berg Guðmundsson", "Goal": "Birkir Bjarnason"},
   
-  {"Transfer": {"out": "Arda Turan", "in": "Ivan Perišić"}}
+  {"Transfer": {"out": "Arda Turan", "in": "Ivan Perišić"}},
+  {"Transfer": {"out": "Christian Fuchs", "in": "Leonardo Bonucci"}},
+  {"Transfer": {"out": "Marc Janko", "in": "Nani"}},
+  {"Transfer": {"out": "Nani", "in": "Marc Janko"}},
+  {"Transfer": {"out": "Marc Janko", "in": "Nani"}},
+  {"Transfer": {"out": "Nani", "in": "Andriy Yarmolenko"}},
+  {"Transfer": {"out": "Gareth Bale", "in": "Anthony Martial"}},
+  {"Transfer": {"out": "Pepe", "in": "Jan Vertonghen"}},
+  {"Transfer": {"out": "Anthony Martial", "in": "Marko Arnautović"}},
+  {"Transfer": {"out": "Cesc Fàbregas", "in": "Gareth Bale"}},
+  {"Transfer": {"out": "Chris Smalling", "in": "Adil Rami"}}
 ]
