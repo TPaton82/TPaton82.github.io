@@ -137,6 +137,12 @@
   {"Assist": "László Kleinheisler", "Goal": "Ádám Szalai"},
   {"Red Card": "Aleksandar Dragović"},
   {"Assist": "Tamás Priskin", "Goal": "Zoltán Stieber"},
+  {"Clean Sheet": "Gábor Király"},
+  {"Clean Sheet": "Ádám Lang"},
+  {"Clean Sheet": "Tamás Kádár"},
+  {"Clean Sheet": "Attila Fiola"},
+  {"Clean Sheet": "Ádám Pintér"},
+  {"Clean Sheet": "Richárd Guzmics"},
   
   {"Transfer": {"out": "Arda Turan", "in": "Ivan Perišić"}}
 ]
