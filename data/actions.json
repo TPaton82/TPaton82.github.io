@@ -144,5 +144,8 @@
   {"Clean Sheet": "Ádám Pintér"},
   {"Clean Sheet": "Richárd Guzmics"},
   
+  {"Assist": "André Gomes", "Goal": "Nani"},
+  {"Assist": "Jóhann Berg Guðmundsson", "Goal": "Birkir Bjarnason"},
+  
   {"Transfer": {"out": "Arda Turan", "in": "Ivan Perišić"}}
 ]
