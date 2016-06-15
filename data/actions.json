@@ -159,5 +159,9 @@
   {"Transfer": {"out": "Cesc Fàbregas", "in": "Gareth Bale"}},
   {"Transfer": {"out": "Chris Smalling", "in": "Adil Rami"}},
   {"Transfer": {"out": "Zlatan Ibrahimović", "in": "André Gomes"}},
-  {"Transfer": {"out": "Eliseu", "in": "Pepe"}}
+  {"Transfer": {"out": "Eliseu", "in": "Pepe"}},
+  
+  {"Assist": "Marek Hamšík", "Goal": "Vladimír Weiss"},
+  {"Assist": "Vladimír Weiss", "Goal": "Marek Hamšík"},
+  {"Assist": "Oleg Shatov", "Goal": "Denis Glushakov"}
 ]
