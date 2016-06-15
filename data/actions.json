@@ -166,5 +166,8 @@
   {"Assist": "Oleg Shatov", "Goal": "Denis Glushakov"},
   
   {"Goal": "Bogdan Stancu"},
-  {"Assist": "Johan Djourou", "Goal": "Admir Mehmedi"}
+  {"Assist": "Johan Djourou", "Goal": "Admir Mehmedi"},
+  
+  {"Transfer": {"out": "Andriy Yarmolenko", "in": "Julian Draxler"}},
+  {"Transfer": {"out": "Stephan Lichtsteiner", "in": "Mats Hummels"}}
 ]
