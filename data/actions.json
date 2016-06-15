@@ -168,6 +168,14 @@
   {"Goal": "Bogdan Stancu"},
   {"Assist": "Johan Djourou", "Goal": "Admir Mehmedi"},
   
+  {"Assist": "Adil Rami", "Goal": "Antoine Griezmann"},
+  {"Assist": "André-Pierre Gignac", "Goal": "Dimitri Payet"},
+  {"Clean Sheet": "Hugo Lloris"},
+  {"Clean Sheet": "Patrice Evra"},
+  {"Clean Sheet": "Adil Rami"},
+  {"Clean Sheet": "Bacary Sagna"},
+  {"Clean Sheet": "Laurent Koscielny"},
+  
   {"Transfer": {"out": "Andriy Yarmolenko", "in": "Julian Draxler"}},
   {"Transfer": {"out": "Stephan Lichtsteiner", "in": "Mats Hummels"}}
 ]
