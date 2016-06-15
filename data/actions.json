@@ -163,5 +163,8 @@
   
   {"Assist": "Marek Hamšík", "Goal": "Vladimír Weiss"},
   {"Assist": "Vladimír Weiss", "Goal": "Marek Hamšík"},
-  {"Assist": "Oleg Shatov", "Goal": "Denis Glushakov"}
+  {"Assist": "Oleg Shatov", "Goal": "Denis Glushakov"},
+  
+  {"Goal": "Bogdan Stancu"},
+  {"Assist": "Johan Djourou", "Goal": "Admir Mehmedi"}
 ]
