@@ -78,7 +78,7 @@ $.getJSON("data/squads.json", function(squads) {
                     }
                     tr.append(td);
                 }
-                $("#table_actions").append(tr);
+                $("#table_actions").prepend(tr);
             });
         });
         
