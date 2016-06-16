@@ -189,6 +189,18 @@
   {"Clean Sheet": "Aaron Hughes"},
   {"Clean Sheet": "Craig Cathcart"},
   
+  {"Clean Sheet": "Manuel Neuer"},
+  {"Clean Sheet": "Jonas Hector"},
+  {"Clean Sheet": "Benedikt Höwedes"},
+  {"Clean Sheet": "Mats Hummels"},
+  {"Clean Sheet": "Jérôme Boateng"},
+  
+  {"Clean Sheet": "Łukasz Fabiański"},
+  {"Clean Sheet": "Michał Pazdan"},
+  {"Clean Sheet": "Artur Jędrzejczyk"},
+  {"Clean Sheet": "Kamil Glik"},
+  {"Clean Sheet": "Łukasz Piszczek"},
+  
   {"Transfer": {"out": "Andriy Yarmolenko", "in": "Julian Draxler"}},
   {"Transfer": {"out": "Stephan Lichtsteiner", "in": "Mats Hummels"}}
 ]
