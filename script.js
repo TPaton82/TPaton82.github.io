@@ -26,9 +26,10 @@ $.getJSON("data/squads.json", function(squads) {
         $.each(squad["players"], function(undefined, player) {
             playerList.push(player["player"]);
             playerDict[player["player"]] = {
+                "name": player["player"],
                 "country": squad["country"],
-                "position": player["position"],
                 "points": 0,
+                "position": player["position"],
                 "manager": null};
         });
     });
@@ -43,42 +44,49 @@ $.getJSON("data/squads.json", function(squads) {
                 if (type == "Manager") {
                     managerList.push(data["manager"]);
                     managerDict[data["manager"]] = {
+                        "name": data["manager"],
                         "country": data["country"],
                         "points": 0,
+                        "drafts": 0,
+                        "transfers": 0,
                         "players": []};
-                    return true;
-                }
-                var points;
-                try {
-                    points = TYPES[type][playerDict[data]["position"]];
-                } catch (err) {
-                    points = 0;
-                }
-                var tr = getRow(points);
-                tr.append($("<td>").text(type));
-                if (type == "Draft") {
-                    tr.append($("<td>").append(getFlag(playerDict[data["player"]])).append(data["player"]));
-                    tr.append($("<td>"));
-                    tr.append($("<td>").append(getFlag(managerDict[data["manager"]])).append(data["manager"]));
-                    playerDict[data["player"]]["manager"] = data["manager"];
-                } else if (type == "Transfer") {
-                    tr.append($("<td>").append(getArrow("in")).append(getFlag(playerDict[data["in"]])).append(data["in"]).append($("<br>")).append(getArrow("out")).append(getFlag(playerDict[data["out"]])).append(data["out"]));
-                    tr.append($("<td>"));
-                    tr.append($("<td>").append(getFlag(managerDict[playerDict[data["out"]]["manager"]])).append(playerDict[data["out"]]["manager"]));
-                    playerDict[data["in"]]["manager"] = playerDict[data["out"]]["manager"];
-                    playerDict[data["out"]]["manager"] = null;
                 } else {
-                    tr.append($("<td>").append(getFlag(playerDict[data])).append(data));
-                    tr.append($("<td>").text(points));
-                    var td = $("<td>");
-                    playerDict[data]["points"] += points;
-                    if (playerDict[data]["manager"] != null) {
-                        td.append(getFlag(managerDict[playerDict[data]["manager"]])).append(playerDict[data]["manager"]);
-                        managerDict[playerDict[data]["manager"]]["points"] += points;
+                    var tr;
+                    if (type == "Draft") {
+                        var player = playerDict[data["player"]];
+                        var manager = managerDict[data["manager"]];
+                        player["manager"] = data["manager"];
+                        tr = getRow();
+                        tr.append($("<td>").append(getDescriptor(type, ++manager["drafts"])));
+                        tr.append($("<td>").append(getPerson(player)));
+                        tr.append($("<td>").append(getPerson(manager)));
+                    } else if (type == "Transfer") {
+                        var playerOut = playerDict[data["out"]];
+                        var playerIn = playerDict[data["in"]];
+                        var manager = managerDict[playerOut["manager"]];
+                        playerIn["manager"] = playerOut["manager"];
+                        playerOut["manager"] = null;
+                        tr = getRow();
+                        tr.append($("<td>").append(getDescriptor(type, ++manager["transfers"])));
+                        tr.append($("<td>").append(getPerson(playerIn, "in")).append(getPerson(playerOut, "out")));
+                        tr.append($("<td>").append(getPerson(manager)));
+                    } else {
+                        var player = playerDict[data];
+                        var points = TYPES[type][player["position"]];
+                        player["points"] += points;
+                        var td = $("<td>");
+                        if (player["manager"] != null) {
+                            var manager = managerDict[player["manager"]];
+                            manager["points"] += points;
+                            td.append(getPerson(manager));
+                        }
+                        tr = getRow(points);
+                        tr.append($("<td>").append(getDescriptor(type, points)));
+                        tr.append($("<td>").append(getPerson(player)));
+                        tr.append(td);
                     }
-                    tr.append(td);
+                    $("#table_actions").prepend(tr);
                 }
-                $("#table_actions").prepend(tr);
             });
         });
         
@@ -88,16 +96,16 @@ $.getJSON("data/squads.json", function(squads) {
                 || sortName(a, b);
         });
         
-        $.each(playerList, function(undefined, player) {
-            var tr = getRow(playerDict[player]["points"]);
-            tr.append($("<td>").append(getFlag(playerDict[player])).append(player));
-            tr.append($("<td>").text(playerDict[player]["position"]));
-            tr.append($("<td>").text(playerDict[player]["points"]));
+        $.each(playerList, function(undefined, namePlayer) {
+            var player = playerDict[namePlayer];
             var td = $("<td>");
-            if (playerDict[player]["manager"] != null) {
-                managerDict[playerDict[player]["manager"]]["players"].push(player);
-                td.append(getFlag(managerDict[playerDict[player]["manager"]])).append(playerDict[player]["manager"]);
+            if (player["manager"] != null) {
+                var manager = managerDict[player["manager"]];
+                manager["players"].push(namePlayer);
+                td.append(getPerson(manager));
             }
+            var tr = getRow(player["points"]);
+            tr.append($("<td>").append(getPerson(player)));
             tr.append(td);
             $("#table_players").append(tr);
         });
@@ -107,17 +115,18 @@ $.getJSON("data/squads.json", function(squads) {
                 || sortName(a, b);
         });
         
-        $.each(managerList, function(rank, manager) {
-            var tr = getRow(rank == 0 ? 1 : rank == managerList.length-1 ? -1 : 0);
-            tr.append($("<td>").append(getFlag(managerDict[manager])).append(manager));
-            tr.append($("<td>").text(managerDict[manager]["points"]));
-            var td = $("<td>");
-            managerDict[manager]["players"].sort(function(a, b) {
+        $.each(managerList, function(rank, nameManager) {
+            var manager = managerDict[nameManager];
+            manager["players"].sort(function(a, b) {
                 return sortPosition(playerDict[a], playerDict[b])
             });
-            $.each(managerDict[manager]["players"], function(undefined, player) {
-                td.append($("<p>").append(playerDict[player]["position"]).append(getFlag(playerDict[player])).append(player));
+            var td = $("<td>");
+            $.each(manager["players"], function(undefined, namePlayer) {
+                var player = playerDict[namePlayer];
+                td.append(getPerson(player));
             });
+            var tr = getRow(rank == 0 ? 1 : rank == managerList.length-1 ? -1 : 0);
+            tr.append($("<td>").append(getPerson(manager)));
             tr.append(td);
             $("#table_managers").append(tr);
         });
@@ -136,7 +145,7 @@ function sortName(a, b) {
     return a.localeCompare(b);
 }
 
-function getRow(value) {
+function getRow(value=0) {
     var tr = $("<tr>");
     if (value > 0) {
         tr.attr("class", "success");
@@ -148,9 +157,28 @@ function getRow(value) {
     return tr;
 }
 
-function getFlag(person) {
+function getDescriptor(type, value) {
+    var p = $("<p>");
+    p.text(type + " (" + value + ")");
+    return p;
+}
+
+function getPerson(data, sub=null) {
+    var p = $("<p>");
+    if (sub != null) {
+        p.append(getArrow(sub));
+    }
+    if (data.hasOwnProperty("position")) {
+        p.append(data["position"]);
+    }
+    p.append(getFlag(data["country"]));
+    p.append(data["name"] + " (" + data["points"] + ")");
+    return p;
+}
+
+function getFlag(country) {
     var img = $("<img>");
-    img.attr("src", "images/flags/" + person["country"] + ".GIF");
+    img.attr("src", "images/flags/" + country + ".GIF");
     img.attr("style", "height: 16; width: 24; margin: 0 8");
     return img;
 }
