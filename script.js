@@ -168,9 +168,9 @@ function getPerson(data, sub=null) {
     if (sub != null) {
         p.append(getArrow(sub));
     }
-    try {
+    if (data.hasOwnProperty("position")) {
         p.append(data["position"]);
-    } catch (err) {}
+    }
     p.append(getFlag(data["country"]));
     p.append(data["name"] + " (" + data["points"] + ")");
     return p;
