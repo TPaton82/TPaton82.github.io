@@ -118,7 +118,7 @@ $.getJSON("data/squads.json", function(squads) {
         $.each(managerList, function(rank, nameManager) {
             var manager = managerDict[nameManager];
             manager["players"].sort(function(a, b) {
-                return sortPosition(playerDict[a], playerDict[b])
+                return sortPosition(playerDict[a], playerDict[b]);
             });
             var td = $("<td>");
             $.each(manager["players"], function(undefined, namePlayer) {
