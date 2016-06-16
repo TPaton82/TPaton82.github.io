@@ -180,6 +180,15 @@
   {"Goal": "Jamie Vardy"},
   {"Assist": "Dele Alli", "Goal": "Daniel Sturridge"},
   
+  {"Assist": "Oliver Norwood", "Goal": "Gareth McAuley"},
+  {"Goal": "Niall McGinn"},
+  {"Clean Sheet": "Michael McGovern"},
+  {"Clean Sheet": "Gareth McAuley"},
+  {"Clean Sheet": "Jonny Evans"},
+  {"Clean Sheet": "Paddy McNair"},
+  {"Clean Sheet": "Aaron Hughes"},
+  {"Clean Sheet": "Craig Cathcart"},
+  
   {"Transfer": {"out": "Andriy Yarmolenko", "in": "Julian Draxler"}},
   {"Transfer": {"out": "Stephan Lichtsteiner", "in": "Mats Hummels"}}
 ]
