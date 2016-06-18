@@ -223,6 +223,8 @@
   {"Clean Sheet": "Juanfran"},
   {"Clean Sheet": "Jordi Alba"},
   
+  {"Assist": "Kevin De Bruyne", "Goal": "Romelu Lukaku"},
+  
   {"Transfer": {"out": "Andriy Yarmolenko", "in": "Julian Draxler"}},
   {"Transfer": {"out": "Stephan Lichtsteiner", "in": "Mats Hummels"}},
   {"Transfer": {"out": "Robert Lewandowski", "in": "Andrea Barzagli"}},
