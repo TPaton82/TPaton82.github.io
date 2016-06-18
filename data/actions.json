@@ -225,11 +225,16 @@
   
   {"Assist": "Kevin De Bruyne", "Goal": "Romelu Lukaku"},
   {"Assist": "Thomas Meunier", "Goal": "Axel Witsel"},
+  {"Assist": "Eden Hazard", "Goal": "Romelu Lukaku"},
   
   {"Transfer": {"out": "Andriy Yarmolenko", "in": "Julian Draxler"}},
   {"Transfer": {"out": "Stephan Lichtsteiner", "in": "Mats Hummels"}},
   {"Transfer": {"out": "Robert Lewandowski", "in": "Andrea Barzagli"}},
   {"Transfer": {"out": "Mario Mandžukić", "in": "Robert Lewandowski"}},
   {"Transfer": {"out": "Xherdan Shaqiri", "in": "Emanuele Giaccherini"}},
-  {"Transfer": {"out": "Luka Modrić", "in": "Ivan Rakitić"}}
+  {"Transfer": {"out": "Luka Modrić", "in": "Ivan Rakitić"}},
+  {"Transfer": {"out": "Graziano Pellè", "in": "Arkadiusz Milik"}},
+  {"Transfer": {"out": "Harry Kane", "in": "Graziano Pellè"}},
+  {"Transfer": {"out": "Andrés Iniesta", "in": "Łukasz Piszczek"}},
+  {"Transfer": {"out": "Gylfi Þór Sigurðsson", "in": "Andrés Iniesta"}}
 ]
