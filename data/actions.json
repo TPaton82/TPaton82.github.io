@@ -201,6 +201,28 @@
   {"Clean Sheet": "Kamil Glik"},
   {"Clean Sheet": "Łukasz Piszczek"},
   
+  {"Assist": "Simone Zaza", "Goal": "Éder Martins"},
+  {"Clean Sheet": "Gianluigi Buffon"},
+  {"Clean Sheet": "Giorgio Chiellini"},
+  {"Clean Sheet": "Alessandro Florenzi"},
+  {"Clean Sheet": "Andrea Barzagli"},
+  {"Clean Sheet": "Leonardo Bonucci"},
+  
+  {"Assist": "Milan Badelj", "Goal": "Ivan Perišić"},
+  {"Assist": "Marcelo Brozović", "Goal": "Ivan Rakitić"},
+  {"Assist": "Tomáš Rosický", "Goal": "Milan Škoda"},
+  {"Goal": "Tomáš Necid"},
+  
+  {"Assist": "Nolito", "Goal": "Álvaro Morata"},
+  {"Goal": "Nolito"},
+  {"Assist": "Jordi Alba", "Goal": "Álvaro Morata"},
+  {"Clean Sheet": "David de Gea"},
+  {"Clean Sheet": "César Azpilicueta"},
+  {"Clean Sheet": "Gerard Piqué"},
+  {"Clean Sheet": "Sergio Ramos"},
+  {"Clean Sheet": "Juanfran"},
+  {"Clean Sheet": "Jordi Alba"},
+  
   {"Transfer": {"out": "Andriy Yarmolenko", "in": "Julian Draxler"}},
   {"Transfer": {"out": "Stephan Lichtsteiner", "in": "Mats Hummels"}}
 ]
