@@ -242,5 +242,6 @@
   {"Transfer": {"out": "Harry Kane", "in": "Graziano Pellè"}},
   {"Transfer": {"out": "Andrés Iniesta", "in": "Łukasz Piszczek"}},
   {"Transfer": {"out": "Gylfi Þór Sigurðsson", "in": "Andrés Iniesta"}},
-  {"Transfer": {"out": "Rui Patrício", "in": "David de Gea"}}
+  {"Transfer": {"out": "Rui Patrício", "in": "David de Gea"}},
+  {"Transfer": {"out": "Kyle Walker", "in": "Cristian Săpunaru"}}
 ]
