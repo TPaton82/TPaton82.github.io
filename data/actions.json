@@ -235,6 +235,18 @@
   {"Goal": "Gylfi Þór Sigurðsson"},
   {"Assist": "Nemanja Nikolić", "Own Goal": "Birkir Már Sævarsson"},
   
+  {"Clean Sheet": "Rui Patrício"},
+  {"Clean Sheet": "Pepe"},
+  {"Clean Sheet": "Raphaël Guerreiro"},
+  {"Clean Sheet": "Ricardo Carvalho"},
+  {"Clean Sheet": "Robert Almer"},
+  {"Clean Sheet": "Martin Hinteregger"},
+  {"Clean Sheet": "Christian Fuchs"},
+  {"Clean Sheet": "David Alaba"},
+  {"Clean Sheet": "Sebastian Prödl"},
+  {"Clean Sheet": "Kevin Wimmer"},
+  {"Clean Sheet": "Florian Klein"},
+  
   {"Transfer": {"out": "Andriy Yarmolenko", "in": "Julian Draxler"}},
   {"Transfer": {"out": "Stephan Lichtsteiner", "in": "Mats Hummels"}},
   {"Transfer": {"out": "Robert Lewandowski", "in": "Andrea Barzagli"}},
