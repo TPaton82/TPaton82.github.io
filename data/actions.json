@@ -258,5 +258,8 @@
   {"Transfer": {"out": "Andrés Iniesta", "in": "Łukasz Piszczek"}},
   {"Transfer": {"out": "Gylfi Þór Sigurðsson", "in": "Andrés Iniesta"}},
   {"Transfer": {"out": "Rui Patrício", "in": "David de Gea"}},
-  {"Transfer": {"out": "Kyle Walker", "in": "Cristian Săpunaru"}}
+  {"Transfer": {"out": "Kyle Walker", "in": "Cristian Săpunaru"}},
+  {"Transfer": {"out": "Ivan Rakitić", "in": "Gylfi Þór Sigurðsson"}},
+  {"Transfer": {"out": "André Gomes", "in": "Vladimír Weiss"}},
+  {"Transfer": {"out": "Emanuele Giaccherini", "in": "Ivan Rakitić"}}
 ]
