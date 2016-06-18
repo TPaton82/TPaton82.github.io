@@ -233,6 +233,7 @@
   {"Clean Sheet": "Thomas Meunier"},
   
   {"Goal": "Gylfi Þór Sigurðsson"},
+  {"Assist": "Nemanja Nikolić", "Own Goal": "Birkir Már Sævarsson"},
   
   {"Transfer": {"out": "Andriy Yarmolenko", "in": "Julian Draxler"}},
   {"Transfer": {"out": "Stephan Lichtsteiner", "in": "Mats Hummels"}},
