@@ -226,6 +226,11 @@
   {"Assist": "Kevin De Bruyne", "Goal": "Romelu Lukaku"},
   {"Assist": "Thomas Meunier", "Goal": "Axel Witsel"},
   {"Assist": "Eden Hazard", "Goal": "Romelu Lukaku"},
+  {"Clean Sheet": "Thibaut Courtois"},
+  {"Clean Sheet": "Toby Alderweireld"},
+  {"Clean Sheet": "Thomas Vermaelen"},
+  {"Clean Sheet": "Jan Vertonghen"},
+  {"Clean Sheet": "Thomas Meunier"},
   
   {"Transfer": {"out": "Andriy Yarmolenko", "in": "Julian Draxler"}},
   {"Transfer": {"out": "Stephan Lichtsteiner", "in": "Mats Hummels"}},
