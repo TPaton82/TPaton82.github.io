@@ -265,6 +265,27 @@
   {"Transfer": {"out": "Emanuele Giaccherini", "in": "Ivan Rakitić"}},
   {"Transfer": {"out": "Graziano Pellè", "in": "Jamie Vardy"}},
   
+  {"Assist": "Ledian Memushaj", "Goal": "Armando Sadiku"},
+  {"Clean Sheet": "Etrit Berisha"},
+  {"Clean Sheet": "Andi Lila"},
+  {"Clean Sheet": "Elseid Hysaj"},
+  {"Clean Sheet": "Ansi Agolli"},
+  {"Clean Sheet": "Mërgim Mavraj"},
+  {"Clean Sheet": "Arlind Ajeti"},
+  
+  {"Clean Sheet": "Yann Sommer"},
+  {"Clean Sheet": "Stephan Lichtsteiner"},
+  {"Clean Sheet": "Michael Lang"},
+  {"Clean Sheet": "Ricardo Rodríguez"},
+  {"Clean Sheet": "Johan Djourou"},
+  {"Clean Sheet": "Fabian Schär"},
+  
+  {"Clean Sheet": "Hugo Lloris"},
+  {"Clean Sheet": "Patrice Evra"},
+  {"Clean Sheet": "Adil Rami"},
+  {"Clean Sheet": "Bacary Sagna"},
+  {"Clean Sheet": "Laurent Koscielny"},
+  
   {"Transfer": {"out": "Jamie Vardy", "in": "Graziano Pellè"}},
   {"Transfer": {"out": "Łukasz Piszczek", "in": "Darijo Srna"}},
   {"Transfer": {"out": "Arkadiusz Milik", "in": "Mario Mandžukić"}},
