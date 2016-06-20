@@ -286,6 +286,8 @@
   {"Clean Sheet": "Bacary Sagna"},
   {"Clean Sheet": "Laurent Koscielny"},
   
+  {"Assist": "Joe Allen", "Goal": "Aaron Ramsey"},
+  
   {"Transfer": {"out": "Jamie Vardy", "in": "Graziano Pellè"}},
   {"Transfer": {"out": "Łukasz Piszczek", "in": "Darijo Srna"}},
   {"Transfer": {"out": "Arkadiusz Milik", "in": "Mario Mandžukić"}},
