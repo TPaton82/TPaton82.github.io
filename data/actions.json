@@ -342,5 +342,7 @@
   {"Transfer": {"out": "Łukasz Piszczek", "in": "Darijo Srna"}},
   {"Transfer": {"out": "Arkadiusz Milik", "in": "Mario Mandžukić"}},
   {"Transfer": {"out": "Gylfi Þór Sigurðsson", "in": "Emanuele Giaccherini"}},
-  {"Transfer": {"out": "David Alaba", "in": "Luka Modrić"}}
+  {"Transfer": {"out": "David Alaba", "in": "Luka Modrić"}},
+  {"Transfer": {"out": "Cristian Săpunaru", "in": "Ricardo Carvalho"}},
+  {"Transfer": {"out": "Marko Arnautović", "in": "Jakub Błaszczykowski"}}
 ]
