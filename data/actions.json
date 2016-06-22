@@ -338,6 +338,32 @@
   {"Saved Penalty": "Danijel Subašić", "Missed Penalty": "Sergio Ramos"},
   {"Assist": "Nikola Kalinić", "Goal": "Ivan Perišić"},
   
+  {"Assist": "Kári Árnason", "Goal": "Jón Daði Böðvarsson"},
+  {"Missed Penalty": "Aleksandar Dragović"},
+  {"Assist": "David Alaba", "Goal": "Alessandro Schöpf"},
+  {"Assist": "Theódór Elmar Bjarnason", "Goal": "Arnór Ingvi Traustason"},
+  
+  {"Goal": "Zoltán Gera"},
+  {"Assist": "Cristiano Ronaldo", "Goal": "Nani"},
+  {"Goal": "Balázs Dzsudzsák"},
+  {"Assist": "João Mário", "Goal": "Cristiano Ronaldo"},
+  {"Goal": "Balázs Dzsudzsák"},
+  {"Assist": "Ricardo Quaresma", "Goal": "Cristiano Ronaldo"},
+  
+  {"Assist": "Wes Hoolahan", "Goal": "Robbie Brady"},
+  {"Clean Sheet": "Darren Randolph"},
+  {"Clean Sheet": "Séamus Coleman"},
+  {"Clean Sheet": "Richard Keogh"},
+  {"Clean Sheet": "Shane Duffy"},
+  {"Clean Sheet": "Stephen Ward"},
+  
+  {"Assist": "Eden Hazard", "Goal": "Radja Nainggolan"},
+  {"Clean Sheet": "Thibaut Courtois"},
+  {"Clean Sheet": "Toby Alderweireld"},
+  {"Clean Sheet": "Thomas Vermaelen"},
+  {"Clean Sheet": "Jan Vertonghen"},
+  {"Clean Sheet": "Thomas Meunier"},
+  
   {"Transfer": {"out": "Jamie Vardy", "in": "Graziano Pellè"}},
   {"Transfer": {"out": "Łukasz Piszczek", "in": "Darijo Srna"}},
   {"Transfer": {"out": "Arkadiusz Milik", "in": "Mario Mandžukić"}},
