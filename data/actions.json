@@ -370,5 +370,9 @@
   {"Transfer": {"out": "Gylfi Þór Sigurðsson", "in": "Emanuele Giaccherini"}},
   {"Transfer": {"out": "David Alaba", "in": "Luka Modrić"}},
   {"Transfer": {"out": "Cristian Săpunaru", "in": "Ricardo Carvalho"}},
-  {"Transfer": {"out": "Marko Arnautović", "in": "Jakub Błaszczykowski"}}
+  {"Transfer": {"out": "Marko Arnautović", "in": "Jakub Błaszczykowski"}},
+  {"Transfer": {"out": "Sami Khedira", "in": "Eliseu"}},
+  {"Transfer": {"out": "Ricardo Carvalho", "in": "Sami Khedira"}},
+  {"Transfer": {"out": "Jakub Błaszczykowski", "in": "Arkadiusz Milik"}},
+  {"Transfer": {"out": "Graziano Pellè", "in": "Kyle Walker"}}
 ]
