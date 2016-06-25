@@ -391,5 +391,13 @@
   {"Scored Penalty": "Fabian Schär"},
   {"Scored Penalty": "Jakub Błaszczykowski"},
   {"Scored Penalty": "Ricardo Rodríguez"},
-  {"Scored Penalty": "Grzegorz Krychowiak"}
+  {"Scored Penalty": "Grzegorz Krychowiak"},
+  
+  {"Assist": "Gareth Bale", "Own Goal": "Gareth McAuley"},
+  {"Clean Sheet": "Wayne Hennessey"},
+  {"Clean Sheet": "Chris Gunter"},
+  {"Clean Sheet": "Neil Taylor"},
+  {"Clean Sheet": "Ben Davies"},
+  {"Clean Sheet": "James Chester"},
+  {"Clean Sheet": "Ashley Williams"}
 ]
