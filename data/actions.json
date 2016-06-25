@@ -374,5 +374,9 @@
   {"Transfer": {"out": "Sami Khedira", "in": "Eliseu"}},
   {"Transfer": {"out": "Ricardo Carvalho", "in": "Sami Khedira"}},
   {"Transfer": {"out": "Jakub Błaszczykowski", "in": "Arkadiusz Milik"}},
-  {"Transfer": {"out": "Graziano Pellè", "in": "Kyle Walker"}}
+  {"Transfer": {"out": "Graziano Pellè", "in": "Kyle Walker"}},
+  {"Transfer": {"out": "Vladimír Weiss", "in": "Jamie Vardy"}},
+  {"Transfer": {"out": "Nolito", "in": "Wayne Rooney"}},
+  {"Transfer": {"out": "Eliseu", "in": "Fabian Schär"}},
+  {"Transfer": {"out": "Sami Khedira", "in": "Aaron Ramsey"}}
 ]
