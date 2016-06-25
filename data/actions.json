@@ -378,5 +378,18 @@
   {"Transfer": {"out": "Vladimír Weiss", "in": "Jamie Vardy"}},
   {"Transfer": {"out": "Nolito", "in": "Wayne Rooney"}},
   {"Transfer": {"out": "Eliseu", "in": "Fabian Schär"}},
-  {"Transfer": {"out": "Sami Khedira", "in": "Aaron Ramsey"}}
+  {"Transfer": {"out": "Sami Khedira", "in": "Aaron Ramsey"}},
+  
+  {"Assist": "Kamil Grosicki", "Goal": "Jakub Błaszczykowski"},
+  {"Goal": "Xherdan Shaqiri"},
+  {"Scored Penalty": "Stephan Lichtsteiner"},
+  {"Scored Penalty": "Robert Lewandowski"},
+  {"Missed Penalty": "Granit Xhaka"},
+  {"Scored Penalty": "Arkadiusz Milik"},
+  {"Scored Penalty": "Xherdan Shaqiri"},
+  {"Scored Penalty": "Kamil Glik"},
+  {"Scored Penalty": "Fabian Schär"},
+  {"Scored Penalty": "Jakub Błaszczykowski"},
+  {"Scored Penalty": "Ricardo Rodríguez"},
+  {"Scored Penalty": "Grzegorz Krychowiak"}
 ]
