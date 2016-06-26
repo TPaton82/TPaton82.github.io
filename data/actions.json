@@ -411,5 +411,12 @@
   {"Clean Sheet": "José Fonte"},
   {"Clean Sheet": "Raphaël Guerreiro"},
   {"Clean Sheet": "Cédric Soares"},
-  {"Goal": "Ricardo Quaresma"}
+  {"Goal": "Ricardo Quaresma"},
+  
+  {"Transfer": {"out": "Luka Modrić", "in": "Nolito"}},
+  {"Transfer": {"out": "Mario Mandžukić", "in": "Nani"}},
+  {"Transfer": {"out": "Darijo Srna", "in": "José Fonte"}},
+  {"Transfer": {"out": "José Fonte", "in": "Thomas Meunier"}},
+  {"Transfer": {"out": "Fabian Schär", "in": "Raphaël Guerreiro"}},
+  {"Transfer": {"out": "Aaron Ramsey", "in": "Thomas Vermaelen"}}
 ]
