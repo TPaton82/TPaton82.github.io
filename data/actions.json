@@ -418,6 +418,10 @@
   {"Assist": "Olivier Giroud", "Goal": "Antoine Griezmann"},
   {"Red Card": "Shane Duffy"},
   
+  {"Goal": "Jérôme Boateng"},
+  {"Saved Penalty": "Matúš Kozáčik", "Missed Penalty": "Mesut Özil"},
+  {"Assist": "Julian Draxler", "Goal": "Mario Gómez"},
+  
   {"Transfer": {"out": "Luka Modrić", "in": "Nolito"}},
   {"Transfer": {"out": "Mario Mandžukić", "in": "Nani"}},
   {"Transfer": {"out": "Darijo Srna", "in": "José Fonte"}},
