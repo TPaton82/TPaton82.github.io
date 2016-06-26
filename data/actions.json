@@ -416,6 +416,7 @@
   {"Goal": "Robbie Brady"},
   {"Assist": "Bacary Sagna", "Goal": "Antoine Griezmann"},
   {"Assist": "Olivier Giroud", "Goal": "Antoine Griezmann"},
+  {"Red Card": "Shane Duffy"},
   
   {"Transfer": {"out": "Luka Modrić", "in": "Nolito"}},
   {"Transfer": {"out": "Mario Mandžukić", "in": "Nani"}},
