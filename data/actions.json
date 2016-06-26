@@ -413,6 +413,10 @@
   {"Clean Sheet": "Cédric Soares"},
   {"Goal": "Ricardo Quaresma"},
   
+  {"Goal": "Robbie Brady"},
+  {"Assist": "Bacary Sagna", "Goal": "Antoine Griezmann"},
+  {"Assist": "Olivier Giroud", "Goal": "Antoine Griezmann"},
+  
   {"Transfer": {"out": "Luka Modrić", "in": "Nolito"}},
   {"Transfer": {"out": "Mario Mandžukić", "in": "Nani"}},
   {"Transfer": {"out": "Darijo Srna", "in": "José Fonte"}},
