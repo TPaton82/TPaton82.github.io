@@ -429,6 +429,16 @@
   {"Clean Sheet": "Jérôme Boateng"},
   {"Clean Sheet": "Joshua Kimmich"},
   
+  {"Assist": "Kevin De Bruyne", "Goal": "Toby Alderweireld"},
+  {"Assist": "Eden Hazard", "Goal": "Michy Batshuayi"},
+  {"Assist": "Kevin De Bruyne", "Goal": "Eden Hazard"},
+  {"Assist": "Radja Nainggolan", "Goal": "Yannick Ferreira Carrasco"},
+  {"Clean Sheet": "Thibaut Courtois"},
+  {"Clean Sheet": "Toby Alderweireld"},
+  {"Clean Sheet": "Thomas Vermaelen"},
+  {"Clean Sheet": "Jan Vertonghen"},
+  {"Clean Sheet": "Thomas Meunier"},
+  
   {"Transfer": {"out": "Luka Modrić", "in": "Nolito"}},
   {"Transfer": {"out": "Mario Mandžukić", "in": "Nani"}},
   {"Transfer": {"out": "Darijo Srna", "in": "José Fonte"}},
