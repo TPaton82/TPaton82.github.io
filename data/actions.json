@@ -475,5 +475,6 @@
   {"Transfer": {"out": "Juanfran", "in": "Alessandro Florenzi"}},
   {"Transfer": {"out": "Alessandro Florenzi", "in": "Axel Witsel"}},
   {"Transfer": {"out": "David Silva", "in": "João Mário"}},
-  {"Transfer": {"out": "Dries Mertens", "in": "Dele Alli"}}
+  {"Transfer": {"out": "Dries Mertens", "in": "Dele Alli"}},
+  {"Transfer": {"out": "Wayne Rooney", "in": "Dries Mertens"}}
 ]
