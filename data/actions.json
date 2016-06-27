@@ -449,6 +449,10 @@
   {"Clean Sheet": "Andrea Barzagli"},
   {"Clean Sheet": "Leonardo Bonucci"},
   
+  {"Goal": "Wayne Rooney"},
+  {"Assist": "Kári Árnason", "Goal": "Ragnar Sigurðsson"},
+  {"Assist": "Jón Daði Böðvarsson", "Goal": "Kolbeinn Sigþórsson"},
+  
   {"Transfer": {"out": "Luka Modrić", "in": "Nolito"}},
   {"Transfer": {"out": "Mario Mandžukić", "in": "Nani"}},
   {"Transfer": {"out": "Darijo Srna", "in": "José Fonte"}},
@@ -462,6 +466,8 @@
   {"Transfer": {"out": "Ivan Perišić", "in": "Dries Mertens"}},
   {"Transfer": {"out": "Sergio Ramos", "in": "Artur Jędrzejczyk"}},
   {"Transfer": {"out": "Artur Jędrzejczyk", "in": "Sergio Ramos"}},
+  {"Transfer": {"out": "Jordi Alba", "in": "Joshua Kimmich"}},
+  {"Transfer": {"out": "Sergio Ramos", "in": "Artur Jędrzejczyk"}},
   {"Transfer": {"out": "Gerard Piqué", "in": "Samuel Umtiti"}},
   {"Transfer": {"out": "Álvaro Morata", "in": "Éder Martins"}},
   {"Transfer": {"out": "Nolito", "in": "Graziano Pellè"}},
