@@ -439,6 +439,16 @@
   {"Clean Sheet": "Jan Vertonghen"},
   {"Clean Sheet": "Thomas Meunier"},
   
+  {"Assist": "Emanuele Giaccherini", "Goal": "Giorgio Chiellini"},
+  {"Goal": "Graziano Pellè"},
+  {"Clean Sheet": "Gianluigi Buffon"},
+  {"Clean Sheet": "Mattia De Sciglio"},
+  {"Clean Sheet": "Giorgio Chiellini"},
+  {"Clean Sheet": "Matteo Darmian"},
+  {"Clean Sheet": "Alessandro Florenzi"},
+  {"Clean Sheet": "Andrea Barzagli"},
+  {"Clean Sheet": "Leonardo Bonucci"},
+  
   {"Transfer": {"out": "Luka Modrić", "in": "Nolito"}},
   {"Transfer": {"out": "Mario Mandžukić", "in": "Nani"}},
   {"Transfer": {"out": "Darijo Srna", "in": "José Fonte"}},
@@ -449,5 +459,15 @@
   {"Transfer": {"out": "Adil Rami", "in": "Kamil Glik"}},
   {"Transfer": {"out": "Dele Alli", "in": "Sami Khedira"}},
   {"Transfer": {"out": "Marek Hamšík", "in": "Renato Sanches"}},
-  {"Transfer": {"out": "Ivan Perišić", "in": "Dries Mertens"}}
+  {"Transfer": {"out": "Ivan Perišić", "in": "Dries Mertens"}},
+  {"Transfer": {"out": "Sergio Ramos", "in": "Artur Jędrzejczyk"}},
+  {"Transfer": {"out": "Artur Jędrzejczyk", "in": "Sergio Ramos"}},
+  {"Transfer": {"out": "Gerard Piqué", "in": "Samuel Umtiti"}},
+  {"Transfer": {"out": "Álvaro Morata", "in": "Éder Martins"}},
+  {"Transfer": {"out": "Nolito", "in": "Graziano Pellè"}},
+  {"Transfer": {"out": "Andrés Iniesta", "in": "Blaise Matuidi"}},
+  {"Transfer": {"out": "Juanfran", "in": "Alessandro Florenzi"}},
+  {"Transfer": {"out": "Alessandro Florenzi", "in": "Axel Witsel"}},
+  {"Transfer": {"out": "David Silva", "in": "João Mário"}},
+  {"Transfer": {"out": "Dries Mertens", "in": "Dele Alli"}}
 ]
