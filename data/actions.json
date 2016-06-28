@@ -476,5 +476,8 @@
   {"Transfer": {"out": "Alessandro Florenzi", "in": "Axel Witsel"}},
   {"Transfer": {"out": "David Silva", "in": "João Mário"}},
   {"Transfer": {"out": "Dries Mertens", "in": "Dele Alli"}},
-  {"Transfer": {"out": "Wayne Rooney", "in": "Dries Mertens"}}
+  {"Transfer": {"out": "Wayne Rooney", "in": "Dries Mertens"}},
+  {"Transfer": {"out": "David de Gea", "in": "Rui Patrício"}},
+  {"Transfer": {"out": "Jamie Vardy", "in": "Bastian Schweinsteiger"}},
+  {"Transfer": {"out": "Dele Alli", "in": "Kingsley Coman"}}
 ]
