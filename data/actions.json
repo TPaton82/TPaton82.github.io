@@ -482,5 +482,6 @@
   {"Transfer": {"out": "Dele Alli", "in": "Kingsley Coman"}},
   {"Transfer": {"out": "Kyle Walker", "in": "Yannick Ferreira Carrasco"}},
   
-  {"Assist": "Kamil Grosicki", "Goal": "Robert Lewandowski"}
+  {"Assist": "Kamil Grosicki", "Goal": "Robert Lewandowski"},
+  {"Assist": "Nani", "Goal": "Renato Sanches"}
 ]
