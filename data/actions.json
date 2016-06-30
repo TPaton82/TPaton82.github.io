@@ -480,5 +480,7 @@
   {"Transfer": {"out": "David de Gea", "in": "Rui Patrício"}},
   {"Transfer": {"out": "Jamie Vardy", "in": "Bastian Schweinsteiger"}},
   {"Transfer": {"out": "Dele Alli", "in": "Kingsley Coman"}},
-  {"Transfer": {"out": "Kyle Walker", "in": "Yannick Ferreira Carrasco"}}
+  {"Transfer": {"out": "Kyle Walker", "in": "Yannick Ferreira Carrasco"}},
+  
+  {"Assist": "Kamil Grosicki", "Goal": "Robert Lewandowski"}
 ]
