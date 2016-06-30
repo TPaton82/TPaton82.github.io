@@ -483,5 +483,23 @@
   {"Transfer": {"out": "Kyle Walker", "in": "Yannick Ferreira Carrasco"}},
   
   {"Assist": "Kamil Grosicki", "Goal": "Robert Lewandowski"},
-  {"Assist": "Nani", "Goal": "Renato Sanches"}
+  {"Assist": "Nani", "Goal": "Renato Sanches"},
+  {"Scored Penalty": "Cristiano Ronaldo"},
+  {"Scored Penalty": "Robert Lewandowski"},
+  {"Scored Penalty": "Renato Sanches"},
+  {"Scored Penalty": "Arkadiusz Milik"},
+  {"Scored Penalty": "João Moutinho"},
+  {"Scored Penalty": "Kamil Glik"},
+  {"Scored Penalty": "Nani"},
+  {"Saved Penalty": "Rui Patrício", "Missed Penalty": "Jakub Błaszczykowski"},
+  {"Scored Penalty": "Ricardo Quaresma"},
+  
+  {"Transfer": {"out": "Raphaël Guerreiro", "in": "Eliseu"}},
+  {"Transfer": {"out": "Samuel Umtiti", "in": "Adil Rami"}},
+  {"Transfer": {"out": "Kamil Glik", "in": "Radja Nainggolan"}},
+  {"Transfer": {"out": "Jan Vertonghen", "in": "Jordan Lukaku"}},
+  {"Transfer": {"out": "Robert Lewandowski", "in": "Marco Parolo"}},
+  {"Transfer": {"out": "Jakub Błaszczykowski", "in": "Alessandro Florenzi"}},
+  {"Transfer": {"out": "Arkadiusz Milik", "in": "Mario Götze"}},
+  {"Transfer": {"out": "Eliseu", "in": "José Fonte"}}
 ]
