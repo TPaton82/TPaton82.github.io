@@ -494,6 +494,9 @@
   {"Saved Penalty": "Rui Patrício", "Missed Penalty": "Jakub Błaszczykowski"},
   {"Scored Penalty": "Ricardo Quaresma"},
   
+  {"Assist": "Eden Hazard", "Goal": "Radja Nainggolan"},
+  {"Assist": "Aaron Ramsey", "Goal": "Ashley Williams"},
+  
   {"Transfer": {"out": "Raphaël Guerreiro", "in": "Eliseu"}},
   {"Transfer": {"out": "Samuel Umtiti", "in": "Adil Rami"}},
   {"Transfer": {"out": "Kamil Glik", "in": "Radja Nainggolan"}},
