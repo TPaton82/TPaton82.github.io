@@ -496,6 +496,8 @@
   
   {"Assist": "Eden Hazard", "Goal": "Radja Nainggolan"},
   {"Assist": "Aaron Ramsey", "Goal": "Ashley Williams"},
+  {"Assist": "Aaron Ramsey", "Goal": "Hal Robson-Kanu"},
+  {"Assist": "Chris Gunter", "Goal": "Sam Vokes"},
   
   {"Transfer": {"out": "Raphaël Guerreiro", "in": "Eliseu"}},
   {"Transfer": {"out": "Samuel Umtiti", "in": "Adil Rami"}},
@@ -504,5 +506,19 @@
   {"Transfer": {"out": "Robert Lewandowski", "in": "Marco Parolo"}},
   {"Transfer": {"out": "Jakub Błaszczykowski", "in": "Alessandro Florenzi"}},
   {"Transfer": {"out": "Arkadiusz Milik", "in": "Mario Götze"}},
-  {"Transfer": {"out": "Eliseu", "in": "José Fonte"}}
+  {"Transfer": {"out": "Eliseu", "in": "José Fonte"}},
+  {"Transfer": {"out": "Thomas Meunier", "in": "Neil Taylor"}},
+  {"Transfer": {"out": "Axel Witsel", "in": "Hal Robson-Kanu"}},
+  {"Transfer": {"out": "Toby Alderweireld", "in": "Cédric Soares"}},
+  {"Transfer": {"out": "Thibaut Courtois", "in": "Wayne Hennessey"}},
+  {"Transfer": {"out": "Dries Mertens", "in": "Simone Zaza"}},
+  {"Transfer": {"out": "Yannick Ferreira Carrasco", "in": "Joe Allen"}},
+  {"Transfer": {"out": "Eden Hazard", "in": "André Schürrle"}},
+  {"Transfer": {"out": "Kevin De Bruyne", "in": "Aaron Ramsey"}},
+  {"Transfer": {"out": "Thomas Vermaelen", "in": "Ricardo Quaresma"}},
+  {"Transfer": {"out": "Romelu Lukaku", "in": "Sam Vokes"}},
+  {"Transfer": {"out": "Radja Nainggolan", "in": "Adrien Silva"}},
+  {"Transfer": {"out": "Artur Jędrzejczyk", "in": "Vieirinha"}},
+  {"Transfer": {"out": "Aaron Ramsey", "in": "William Carvalho"}},
+  {"Transfer": {"out": "William Carvalho", "in": "N'Golo Kanté"}}
 ]
