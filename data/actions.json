@@ -524,6 +524,8 @@
   {"Assist": "Antoine Griezmann", "Goal": "Paul Pogba"},
   {"Assist": "Antoine Griezmann", "Goal": "Dimitri Payet"},
   {"Assist": "Olivier Giroud", "Goal": "Antoine Griezmann"},
+  {"Assist": "Gylfi Þór Sigurðsson", "Goal": "Kolbeinn Sigþórsson"},
+  {"Assist": "Dimitri Payet", "Goal": "Olivier Giroud"},
   
   {"Transfer": {"out": "Raphaël Guerreiro", "in": "Eliseu"}},
   {"Transfer": {"out": "Samuel Umtiti", "in": "Adil Rami"}},
