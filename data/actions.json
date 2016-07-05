@@ -561,5 +561,9 @@
   {"Transfer": {"out": "Joe Allen", "in": "Anthony Martial"}},
   {"Transfer": {"out": "Anthony Martial", "in": "James Chester"}},
   {"Transfer": {"out": "Sami Khedira", "in": "Joe Allen"}},
-  {"Transfer": {"out": "William Carvalho", "in": "Moussa Sissoko"}}
+  {"Transfer": {"out": "William Carvalho", "in": "Moussa Sissoko"}},
+  {"Transfer": {"out": "Graziano Pellè", "in": "Anthony Martial"}},
+  {"Transfer": {"out": "Éder Martins", "in": "André Gomes"}},
+  {"Transfer": {"out": "Andrea Barzagli", "in": "Eliaquim Mangala"}},
+  {"Transfer": {"out": "Gianluigi Buffon", "in": "Marc-André ter Stegen"}}
 ]
