@@ -587,5 +587,6 @@
   {"Transfer": {"out": "Hal Robson-Kanu", "in": "Rafa Silva"}},
   {"Transfer": {"out": "Wayne Hennessey", "in": "Steve Mandanda"}},
   {"Transfer": {"out": "Neil Taylor", "in": "Emre Can"}},
-  {"Transfer": {"out": "Chris Gunter", "in": "Christophe Jallet"}}
+  {"Transfer": {"out": "Chris Gunter", "in": "Christophe Jallet"}},
+  {"Transfer": {"out": "Christophe Jallet", "in": "Lucas Digne"}}
 ]
