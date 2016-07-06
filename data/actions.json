@@ -585,5 +585,7 @@
   {"Transfer": {"out": "Joe Allen", "in": "Sami Khedira"}},
   {"Transfer": {"out": "Ashley Williams", "in": "Samuel Umtiti"}},
   {"Transfer": {"out": "Hal Robson-Kanu", "in": "Rafa Silva"}},
-  {"Transfer": {"out": "Wayne Hennessey", "in": "Steve Mandanda"}}
+  {"Transfer": {"out": "Wayne Hennessey", "in": "Steve Mandanda"}},
+  {"Transfer": {"out": "Neil Taylor", "in": "Emre Can"}},
+  {"Transfer": {"out": "Chris Gunter", "in": "Christophe Jallet"}}
 ]
