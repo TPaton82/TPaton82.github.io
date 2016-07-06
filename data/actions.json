@@ -565,5 +565,25 @@
   {"Transfer": {"out": "Graziano Pellè", "in": "Anthony Martial"}},
   {"Transfer": {"out": "Éder Martins", "in": "André Gomes"}},
   {"Transfer": {"out": "Andrea Barzagli", "in": "Eliaquim Mangala"}},
-  {"Transfer": {"out": "Gianluigi Buffon", "in": "Marc-André ter Stegen"}}
+  {"Transfer": {"out": "Gianluigi Buffon", "in": "Marc-André ter Stegen"}},
+  {"Transfer": {"out": "Mats Hummels", "in": "Raphaël Guerreiro"}},
+  
+  {"Assist": "Raphaël Guerreiro", "Goal": "Cristiano Ronaldo"},
+  {"Assist": "Cristiano Ronaldo", "Goal": "Nani"},
+  {"Clean Sheet": "Rui Patrício"},
+  {"Clean Sheet": "Bruno Alves"},
+  {"Clean Sheet": "José Fonte"},
+  {"Clean Sheet": "Raphaël Guerreiro"},
+  {"Clean Sheet": "Cédric Soares"},
+  
+  {"Transfer": {"out": "Raphaël Guerreiro", "in": "Mats Hummels"}},
+  {"Transfer": {"out": "Danilo", "in": "Aaron Ramsey"}},
+  {"Transfer": {"out": "James Chester", "in": "Raphaël Guerreiro"}},
+  {"Transfer": {"out": "Aaron Ramsey", "in": "João Moutinho"}},
+  {"Transfer": {"out": "Sam Vokes", "in": "Lukas Podolski"}},
+  {"Transfer": {"out": "Gareth Bale", "in": "William Carvalho"}},
+  {"Transfer": {"out": "Joe Allen", "in": "Sami Khedira"}},
+  {"Transfer": {"out": "Ashley Williams", "in": "Samuel Umtiti"}},
+  {"Transfer": {"out": "Hal Robson-Kanu", "in": "Rafa Silva"}},
+  {"Transfer": {"out": "Wayne Hennessey", "in": "Steve Mandanda"}}
 ]
