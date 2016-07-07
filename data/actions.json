@@ -576,6 +576,14 @@
   {"Clean Sheet": "Raphaël Guerreiro"},
   {"Clean Sheet": "Cédric Soares"},
   
+  {"Goal": "Antoine Griezmann"},
+  {"Goal": "Antoine Griezmann"},
+  {"Clean Sheet": "Hugo Lloris"},
+  {"Clean Sheet": "Patrice Evra"},
+  {"Clean Sheet": "Bacary Sagna"},
+  {"Clean Sheet": "Laurent Koscielny"},
+  {"Clean Sheet": "Samuel Umtiti"},
+  
   {"Transfer": {"out": "Raphaël Guerreiro", "in": "Mats Hummels"}},
   {"Transfer": {"out": "Danilo", "in": "Aaron Ramsey"}},
   {"Transfer": {"out": "James Chester", "in": "Raphaël Guerreiro"}},
@@ -588,5 +596,15 @@
   {"Transfer": {"out": "Wayne Hennessey", "in": "Steve Mandanda"}},
   {"Transfer": {"out": "Neil Taylor", "in": "Emre Can"}},
   {"Transfer": {"out": "Chris Gunter", "in": "Christophe Jallet"}},
-  {"Transfer": {"out": "Christophe Jallet", "in": "Lucas Digne"}}
+  {"Transfer": {"out": "Christophe Jallet", "in": "Lucas Digne"}},
+  {"Transfer": {"out": "Paul Pogba", "in": "Dele Alli"}},
+  {"Transfer": {"out": "Adrien Silva", "in": "Paul Pogba"}},
+  {"Transfer": {"out": "Dele Alli", "in": "Adrien Silva"}},
+  {"Transfer": {"out": "Mario Gómez", "in": "Éder Lopes"}},
+  {"Transfer": {"out": "Mats Hummels", "in": "Bruno Alves"}},
+  {"Transfer": {"out": "Julian Draxler", "in": "Morgan Schneiderlin"}},
+  {"Transfer": {"out": "Mario Götze", "in": "Danilo"}},
+  {"Transfer": {"out": "Jonas Hector", "in": "Ricardo Carvalho"}},
+  {"Transfer": {"out": "Jérôme Boateng", "in": "Christophe Jallet"}},
+  {"Transfer": {"out": "Manuel Neuer", "in": "Benoît Costil"}}
 ]
