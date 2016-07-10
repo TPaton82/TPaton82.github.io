@@ -610,5 +610,17 @@
   {"Transfer": {"out": "André Schürrle", "in": "Vieirinha"}},
   {"Transfer": {"out": "Nani", "in": "Dele Alli"}},
   {"Transfer": {"out": "Antoine Griezmann", "in": "Nani"}},
-  {"Transfer": {"out": "Dele Alli", "in": "Antoine Griezmann"}}
+  {"Transfer": {"out": "Dele Alli", "in": "Antoine Griezmann"}},
+  
+  {"Clean Sheet": "Rui Patrício"},
+  {"Clean Sheet": "Pepe"},
+  {"Clean Sheet": "José Fonte"},
+  {"Clean Sheet": "Raphaël Guerreiro"},
+  {"Clean Sheet": "Cédric Soares"},
+  {"Clean Sheet": "Hugo Lloris"},
+  {"Clean Sheet": "Patrice Evra"},
+  {"Clean Sheet": "Bacary Sagna"},
+  {"Clean Sheet": "Laurent Koscielny"},
+  {"Clean Sheet": "Samuel Umtiti"},
+  {"Assist": "João Moutinho", "Goal": "Éder Lopes"}
 ]
