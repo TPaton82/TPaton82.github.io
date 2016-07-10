@@ -607,5 +607,8 @@
   {"Transfer": {"out": "Jonas Hector", "in": "Ricardo Carvalho"}},
   {"Transfer": {"out": "Jérôme Boateng", "in": "Christophe Jallet"}},
   {"Transfer": {"out": "Manuel Neuer", "in": "Benoît Costil"}},
-  {"Transfer": {"out": "André Schürrle", "in": "Vieirinha"}}
+  {"Transfer": {"out": "André Schürrle", "in": "Vieirinha"}},
+  {"Transfer": {"out": "Nani", "in": "Dele Alli"}},
+  {"Transfer": {"out": "Antoine Griezmann", "in": "Nani"}},
+  {"Transfer": {"out": "Dele Alli", "in": "Antoine Griezmann"}}
 ]
