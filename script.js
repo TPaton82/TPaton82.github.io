@@ -164,7 +164,7 @@ function getPerson(data, sub) {
     try {
         p.append(data["position"]);
     } catch (err) {}
-    p.append(getFlag(data["country"]));
+    p.append(getFlag(data["team"]));
     p.append(data["name"]);
     return p;
 }
@@ -175,9 +175,9 @@ function getPoints(data, sub) {
     return p;
 }
 
-function getFlag(country) {
+function getFlag(team) {
     var img = $("<img>");
-    img.attr("src", "images/flags/" + country + ".GIF");
+    img.attr("src", "images/flags/" + team + ".GIF");
     img.attr("style", "height: 16; width: 24; margin: 0 8");
     return img;
 }
