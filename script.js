@@ -24,7 +24,7 @@ $.getJSON("data/squads.json", function(squads) {
             playerList.push(player["player"]);
             playerDict[player["player"]] = {
                 "name": player["player"],
-                "country": squad["country"],
+                "team": squad["team"],
                 "points": 0,
                 "position": player["position"],
                 "manager": null};
