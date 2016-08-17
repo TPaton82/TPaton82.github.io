@@ -1,14 +1,10 @@
 const POSITIONS = {"GK": 0, "DF": 1, "MF": 2, "FW": 3};
 
 const TYPES = {
-  "Goal": {"GK": 10, "DF": 7, "MF": 6, "FW": 5},
+  "Goal": {"GK": 6, "DF": 5, "MF": 4, "FW": 3},
   "Assist": {"GK": 3, "DF": 3, "MF": 3, "FW": 3},
   "Clean Sheet": {"GK": 6, "DF": 5},
-  "Scored Penalty": {"GK": 3, "DF": 2, "MF": 2, "FW": 2},
-  "Saved Penalty": {"GK": 2, "DF": 4, "MF": 4, "FW": 4},
   "Own Goal": {"GK": -1, "DF": -2, "MF": -2, "FW": -2},
-  "Missed Penalty": {"GK": -2, "DF": -2, "MF": -2, "FW": -2},
-  "Red Card": {"GK": -2, "DF": -2, "MF": -2, "FW": -2}
 };
 
 $.each(TYPES, function(type, positions) {
