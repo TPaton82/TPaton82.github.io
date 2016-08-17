@@ -12,9 +12,15 @@
   ]},
   {"country": "Hillcroft", "players": [
     {"player": "Fingers", "position": "GK"},
-    {"player": "Chris Turner", "position": "MF"}
+    {"player": "Chris Turner", "position": "MF"},
+    {"player": "Eoin Dunne", "position": "FW"},
+    {"player": "Zak Jordan", "position": "MF"},
+    {"player": "John Goodwin", "position": "DF"}
   ]},
   {"country": "Thrillcroft", "players": [
-    {"player": "Etrit Berisha", "position": "GK"}
+    {"player": "Tim Scott", "position": "MF"},
+    {"player": "Ben Jessup", "position": "DF"},
+    {"player": "Ken Koi", "position": "FW"},
+    {"player": "Bradd Tipler", "position": "DF"}
   ]}
 ]
