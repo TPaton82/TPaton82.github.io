@@ -1,5 +1,5 @@
 [
-  {"country": "Chillcroft", "players": [
+  {"team": "Chillcroft", "players": [
     {"player": "Rhydian", "position": "GK"},
     {"player": "Sam Scott", "position": "DF"},
     {"player": "Ed Biegel", "position": "DF"},
@@ -10,14 +10,14 @@
     {"player": "John Wheeldon", "position": "MF"},
     {"player": "Harry Collins", "position": "FW"}
   ]},
-  {"country": "Hillcroft", "players": [
+  {"team": "Hillcroft", "players": [
     {"player": "Fingers", "position": "GK"},
     {"player": "Chris Turner", "position": "MF"},
     {"player": "Eoin Dunne", "position": "FW"},
     {"player": "Zak Jordan", "position": "MF"},
     {"player": "John Goodwin", "position": "DF"}
   ]},
-  {"country": "Thrillcroft", "players": [
+  {"team": "Thrillcroft", "players": [
     {"player": "Tim Scott", "position": "MF"},
     {"player": "Ben Jessup", "position": "DF"},
     {"player": "Ken Koi", "position": "FW"},
