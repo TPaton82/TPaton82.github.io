@@ -42,7 +42,7 @@ $.getJSON("data/squads.json", function(squads) {
                     managerList.push(data["manager"]);
                     managerDict[data["manager"]] = {
                         "name": data["manager"],
-                        "country": data["country"],
+                        "team": data["team"],
                         "points": 0,
                         "drafts": 0,
                         "transfers": 0,
@@ -171,16 +171,8 @@ function getPerson(data, sub) {
     try {
         p.append(data["position"]);
     } catch (err) {}
-    p.append(getFlag(data["country"]));
     p.append(data["name"] + " (" + data["points"] + ")");
     return p;
-}
-
-function getFlag(country) {
-    var img = $("<img>");
-    img.attr("src", "images/flags/" + country + ".GIF");
-    img.attr("style", "height: 16; width: 24; margin: 0 8");
-    return img;
 }
 
 function getArrow(sub) {
