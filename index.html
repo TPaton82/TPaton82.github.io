@@ -44,45 +44,33 @@
         </div>
         <div id="tab_rules" class="tab-pane">
           <h3>Selection</h3>
-          <p>Each team consists of 11 players (no substitutes) with the following restrictions:</p>
+          <p>Each team consists of 10 players (no substitutes) with the following restrictions:</p>
           <ul>
             <li>1 Goalkeeper (GK)</li>
-            <li>3 to 5 Defenders (DF)</li>
-            <li>3 to 5 Midfielders (MF)</li>
-            <li>1 to 3 Forwards (FW)</li>
+            <li>3 Defenders (DF)</li>
+            <li>3 Midfielders (MF)</li>
+            <li>1 Attackers (FW)</li>
           </ul>
           <h3>Draft</h3>
           <p>
-            The draft will take place from Thursday 2nd June 2016 to Thursday 9th June 2016 inclusive.
+            Your draft must take place before 1st October 2016.
             On each round every manager will choose a single player to join their team.
-            Each manager should do their scouting in advance, so at least 2 rounds can be completed each day.
             The order will be randomly generated and will alternate on each round.
             For example, if there are 3 teams denoted A, B, C, the order will be: A-B-C-C-B-A ...
-            The draft is completed as soon as all teams have 11 players.
-            At the end of the draft all teams must comply with the selection restrictions.
+            The draft is completed as soon as all teams have 10 players.
+            At the end of the draft, final teams must be sent to Tom Paton.
           </p>
           <h3>Transfers</h3>
             A manager can exchange one of their players for an unselected player on a first-come-first-served basis.
             There are no restrictions on the number of transfers allowed.
             Teams must comply with the selection restrictions at all times.
             Transfers can be submitted at any time after the draft is completed, and are immediately binding.
-            However, ownership for the purpose of assigning points will only be transferred at the following times:
           </p>
-          <ul>
-            <li>00:01 BST, Friday 10th June 2016 - Morning of France v Romania</li>
-            <li>00:01 BST, Wednesday 15th June 2016 - Morning of France v Albania</li>
-            <li>00:01 BST, Sunday 19th June 2016 - Morning of Switzerland v France</li>
-            <li>00:01 BST, Saturday 25th June 2016 - Morning of first knockout match</li>
-            <li>00:01 BST, Thursday 30th June 2016 - Morning of first quarter-final</li>
-            <li>00:01 BST, Wednesday 6th July 2016 - Morning of first semi-final</li>
-            <li>00:01 BST, Sunday 10th July 2016 - Morning of final</li>
-          </ul>
           <h3>Points</h3>
           <p>
             Points are awarded to or deducted from players for the following actions.
             These points are assigned to the team owning the player at the time of the action.
-            Positions are determined by the list of players, not apparent playing position in a given match.
-            UEFA Euro 2016 official tournament reports are used to calculate points in all cases.
+            Positions are determined by the initial season starting position, not playing position in a given match.
           </p>
           <table class="table">
             <thead>
@@ -90,7 +78,14 @@
             </thead>
             <tbody>
               <tr class="success">
-                <td>Goal (excl. Shootout)</td>
+                <td>Appearance</td>
+                <td id="Goal_GK">N/A</td>
+                <td id="Goal_DF">N/A</td>
+                <td id="Goal_MF">N/A</td>
+                <td id="Goal_FW">N/A</td>
+              </tr>              
+              <tr class="success">
+                <td>Goal</td>
                 <td id="Goal_GK">N/A</td>
                 <td id="Goal_DF">N/A</td>
                 <td id="Goal_MF">N/A</td>
@@ -110,20 +105,6 @@
                 <td id="CleanSheet_MF">N/A</td>
                 <td id="CleanSheet_FW">N/A</td>
               </tr>
-              <tr class="success">
-                <td>Scored Penalty (Shootout)</td>
-                <td id="ScoredPenalty_GK">N/A</td>
-                <td id="ScoredPenalty_DF">N/A</td>
-                <td id="ScoredPenalty_MF">N/A</td>
-                <td id="ScoredPenalty_FW">N/A</td>
-              </tr>
-              <tr class="success">
-                <td>Penalty Save (incl. Shootout)</td>
-                <td id="SavedPenalty_GK">N/A</td>
-                <td id="SavedPenalty_DF">N/A</td>
-                <td id="SavedPenalty_MF">N/A</td>
-                <td id="SavedPenalty_FW">N/A</td>
-              </tr>
               <tr class="danger">
                 <td>Own Goal</td>
                 <td id="OwnGoal_GK">N/A</td>
@@ -131,23 +112,8 @@
                 <td id="OwnGoal_MF">N/A</td>
                 <td id="OwnGoal_FW">N/A</td>
               </tr>
-              <tr class="danger">
-                <td>Missed/Saved Penalty (incl. Shootout)</td>
-                <td id="MissedPenalty_GK">N/A</td>
-                <td id="MissedPenalty_DF">N/A</td>
-                <td id="MissedPenalty_MF">N/A</td>
-                <td id="MissedPenalty_FW">N/A</td>
-              </tr>
-              <tr class="danger">
-                <td>Red Card</td>
-                <td id="RedCard_GK">N/A</td>
-                <td id="RedCard_DF">N/A</td>
-                <td id="RedCard_MF">N/A</td>
-                <td id="RedCard_FW">N/A</td>
-              </tr>
             </tbody>
           </table>
-          <p>* Players must appear before full time to gain points.</p>
         </div>
       </div>
     </div>
