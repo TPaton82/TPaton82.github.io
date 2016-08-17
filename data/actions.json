@@ -1,14 +1,27 @@
 [
   {"Manager": {"manager": "Tom Paton", "team": "Chillcroft"}},
+  {"Manager": {"manager": "Rhys Morgan", "team": "Chillcroft"}},
+  {"Manager": {"manager": "Sam Scott", "team": "Chillcroft"}},  
   
   {"Draft": {"manager": "Tom Paton", "player": "Chris Turner"}},
   {"Draft": {"manager": "Tom Paton", "player": "Timmy"}},
   {"Draft": {"manager": "Tom Paton", "player": "Sam Scott"}},
   {"Draft": {"manager": "Tom Paton", "player": "Rhys Morgan"}},
   
+  {"Draft": {"manager": "Rhys Morgan", "player": "Fingers"}},
+  {"Draft": {"manager": "Rhys Morgan", "player": "Timmy"}},
+  {"Draft": {"manager": "Rhys Morgan", "player": "Ken Koi"}},
+  {"Draft": {"manager": "Rhys Morgan", "player": "Rhys Morgan"}},
+  
+  {"Draft": {"manager": "Sam Scott", "player": "Tim Scott"}},
+  {"Draft": {"manager": "Sam Scott", "player": "Eoin Dunne"}},
+  {"Draft": {"manager": "Sam Scott", "player": "Harry Collins"}},
+  {"Draft": {"manager": "Sam Scott", "player": "Rhys Morgan"}},
+  
   {"Transfer": {"out": "Sam Scott", "in": "Ben Jessup"}},
   
   {"Assist": "Rhys Morgan", "Goal": "Timmy"},
   {"Appearance": "Chris Turner"},
+  {"Clean Sheet": "Fingers"},
   {"Assist": "Sam Scott", "Goal": "Rhys Morgan"}
 ]
