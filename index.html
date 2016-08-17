@@ -1,6 +1,6 @@
 <html>
   <head>
-    <title>Euro 2016</title>
+    <title>Hillcroft Fantasy Lacrosse</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
@@ -9,7 +9,7 @@
   <body>
     <div class="container">
       <ul class="nav nav-tabs">
-        <li class="active"><a data-toggle="tab" href="#tab_managers">Managers</a></li>
+        <li class="active"><a data-toggle="tab" href="#tab_managers">League</a></li>
         <li><a data-toggle="tab" href="#tab_players">Players</a></li>
         <li><a data-toggle="tab" href="#tab_actions">Actions</a></li>
         <li><a data-toggle="tab" href="#tab_rules">Rules</a></li>
@@ -18,7 +18,7 @@
         <div id="tab_managers" class="tab-pane active">
           <table class="table">
             <thead>
-              <tr><th>Manager</th><th>Players</th></tr>
+              <tr><th>Manager</th><th>Total Points</th><th>Gameweek Points</th></tr>
             </thead>
             <tbody id="table_managers">
             </tbody>
@@ -27,7 +27,7 @@
         <div id="tab_players" class="tab-pane">
           <table class="table">
             <thead>
-              <tr><th>Player</th><th>Manager</th></tr>
+              <tr><th>Player</th><th>Total Points</th><th>Gameweek Points</th></tr>
             </thead>
             <tbody id="table_players">
             </tbody>
@@ -49,7 +49,7 @@
             <li>1 Goalkeeper (GK)</li>
             <li>3 Defenders (DF)</li>
             <li>3 Midfielders (MF)</li>
-            <li>1 Attackers (FW)</li>
+            <li>3 Attackers (FW)</li>
           </ul>
           <h3>Draft</h3>
           <p>
@@ -79,10 +79,10 @@
             <tbody>
               <tr class="success">
                 <td>Appearance</td>
-                <td id="Goal_GK">N/A</td>
-                <td id="Goal_DF">N/A</td>
-                <td id="Goal_MF">N/A</td>
-                <td id="Goal_FW">N/A</td>
+                <td id="Appearance_GK">N/A</td>
+                <td id="Appearance_DF">N/A</td>
+                <td id="Appearance_MF">N/A</td>
+                <td id="Appearance_FW">N/A</td>
               </tr>              
               <tr class="success">
                 <td>Goal</td>
