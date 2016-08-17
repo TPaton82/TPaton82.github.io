@@ -95,15 +95,11 @@ $.getJSON("data/squads.json", function(squads) {
         
         $.each(playerList, function(undefined, namePlayer) {
             var player = playerDict[namePlayer];
-            var td = $("<td>");
-            if (player["manager"] != null) {
-                var manager = managerDict[player["manager"]];
-                manager["players"].push(namePlayer);
-                td.append(getPerson(manager));
-            }
             var tr = getRow(player["points"]);
             tr.append($("<td>").append(getPerson(player)));
-            tr.append(td);
+            var td = getRow(player["points"]);
+            td.append($("<td>").append(getPoints(player)));
+            tr.append(td)
             $("#table_players").append(tr);
         });
         
@@ -172,10 +168,16 @@ function getPerson(data, sub) {
         p.append(data["position"]);
     } catch (err) {}
     p.append(getFlag(data["country"]));
-    p.append(data["name"] + " (" + data["points"] + ")");
+    p.append(data["name"]);
     return p;
 }
   
+function getPoints(data, sub) {
+    var p = $("<p>");
+    p.append(data["points"]);
+    return p;
+}
+
 function getFlag(country) {
     var img = $("<img>");
     img.attr("src", "images/flags/" + country + ".GIF");
