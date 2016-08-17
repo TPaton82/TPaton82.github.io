@@ -1,3 +1,14 @@
 [
-  {"Manager": {"manager": "Tom Paton", "country": "England"}},
+  {"Manager": {"manager": "Tom Paton", "team": "Chillcroft"}},
+  
+  {"Draft": {"manager": "Tom Paton", "player": "Chris Turner"}},
+  {"Draft": {"manager": "Tom Paton", "player": "Timmy"}},
+  {"Draft": {"manager": "Tom Paton", "player": "Sam Scott"}},
+  {"Draft": {"manager": "Tom Paton", "player": "Rhys Morgan"}},
+  
+  {"Transfer": {"out": "Sam Scott", "in": "Ben Jessup"}},
+  
+  {"Assist": "Rhys Morgan", "Goal": "Timmy"},
+  {"Appearance": "Chris Turner"},
+  {"Assist": "Sam Scott", "Goal": "Rhys Morgan"}
 ]
