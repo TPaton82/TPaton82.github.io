@@ -113,14 +113,11 @@ $.getJSON("data/squads.json", function(squads) {
             manager["players"].sort(function(a, b) {
                 return sortPosition(playerDict[a], playerDict[b]);
             });
-            var td = $("<td>");
-            $.each(manager["players"], function(undefined, namePlayer) {
-                var player = playerDict[namePlayer];
-                td.append(getPerson(player));
-            });
             var tr = getRow(rank == 0 ? 1 : rank == managerList.length-1 ? -1 : 0);
             tr.append($("<td>").append(getPerson(manager)));
-            tr.append(td);
+            var td = getRow(rank == 0 ? 1 : rank == managerList.length-1 ? -1 : 0);
+            td.append($("<td>").append(getPoints(manager)));
+            tr.append(td)
             $("#table_managers").append(tr);
         });
     });
