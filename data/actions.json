@@ -18,8 +18,6 @@
   {"Draft": {"manager": "Sam Scott", "player": "Harry Collins"}},
   {"Draft": {"manager": "Sam Scott", "player": "Rhys Morgan"}},
   
-  {"Transfer": {"out": "Sam Scott", "in": "Ben Jessup"}},
-  
   {"Assist": "Rhys Morgan", "Goal": "Timmy"},
   {"Appearance": "Chris Turner"},
   {"Clean Sheet": "Fingers"},
