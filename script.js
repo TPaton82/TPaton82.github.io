@@ -171,8 +171,16 @@ function getPerson(data, sub) {
     try {
         p.append(data["position"]);
     } catch (err) {}
+    p.append(getFlag(data["country"]));
     p.append(data["name"] + " (" + data["points"] + ")");
     return p;
+}
+  
+function getFlag(country) {
+    var img = $("<img>");
+    img.attr("src", "images/flags/" + country + ".GIF");
+    img.attr("style", "height: 16; width: 24; margin: 0 8");
+    return img;
 }
 
 function getArrow(sub) {
