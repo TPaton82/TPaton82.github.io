@@ -72,8 +72,12 @@ $.getJSON("data/squads.json", function(squads) {
                         var player = playerDict[data];
                         var points = TYPES[type][player["position"]];
                         player["points"] += points;
-                        //var manager = managerDict[player["manager"]]; NNED TO WORK OUT A WAY TO ADD POINTS TO ALL MANAGERS
-                        //manager["players"] += points;
+                        $.each(managerList, function(nameManager) {
+                            var manager = managerDict[nameManager];
+                            if $.inArray(player["name"], manager["players"]) > -1 {
+                              manager["points"] += points
+                            }
+                        });
                         tr = getRow(points);
                         tr.append($("<td>").append(getDescriptor(type, points)));
                         tr.append($("<td>").append(getPerson(player)));
