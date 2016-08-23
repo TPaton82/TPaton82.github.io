@@ -60,10 +60,10 @@ $.getJSON("data/squads.json", function(squads) {
                         var playerOut = playerDict[data["out"]];
                         var playerIn = playerDict[data["in"]];
                         var manager = managerDict[data["manager"]];
-                        //var index = manager["players"].indexOf(data["out"]);
-                        //if (index !== -1) {
-                        //    manager["players"].splice(index, 1, data["in"]);
-                        //}
+                        var index = manager["players"].indexOf(data["out"]);
+                        if (index !== -1) {
+                            manager["players"].splice(index, 1, data["in"]);
+                        }
                         tr = getRow();
                         tr.append($("<td>").append(getDescriptor(type, ++manager["transfers"])));
                         tr.append($("<td>").append(getPerson(playerIn, "in")).append(getPerson(playerOut, "out")));
@@ -72,16 +72,11 @@ $.getJSON("data/squads.json", function(squads) {
                         var player = playerDict[data];
                         var points = TYPES[type][player["position"]];
                         player["points"] += points;
-                        var td = $("<td>");
-                        if (player["manager"] != null) {
-                            var manager = managerDict[player["manager"]];
-                            manager["points"] += points;
-                            td.append(getPerson(manager));
-                        }
+                        //var manager = managerDict[player["manager"]]; NNED TO WORK OUT A WAY TO ADD POINTS TO ALL MANAGERS
+                        //manager["players"] += points;
                         tr = getRow(points);
                         tr.append($("<td>").append(getDescriptor(type, points)));
                         tr.append($("<td>").append(getPerson(player)));
-                        tr.append(td);
                     }
                     $("#table_actions").prepend(tr);
                 }
