@@ -95,6 +95,10 @@ $.getJSON("data/squads.json", function(squads) {
         
         $.each(playerList, function(undefined, namePlayer) {
             var player = playerDict[namePlayer];
+            if (player["manager"] != null) {
+                var manager = managerDict[player["manager"]];
+                manager["players"].push(namePlayer);
+            }
             var tr = getRow(player["points"]);
             tr.append($("<td>").append(getPerson(player)));
             var td = getRow(player["points"]);
