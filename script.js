@@ -74,8 +74,8 @@ $.getJSON("data/squads.json", function(squads) {
                         player["points"] += points;
                         $.each(managerList, function(nameManager) {
                             var manager = managerDict[nameManager];
-                            if $.inArray(player["name"], manager["players"]) > -1 {
-                              manager["points"] += points
+                            if (manager["players"].indexOf(player["name"]) > -1) {
+                                manager["points"] += points
                             }
                         });
                         tr = getRow(points);
