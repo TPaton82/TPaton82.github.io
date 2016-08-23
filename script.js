@@ -121,12 +121,7 @@ $.getJSON("data/squads.json", function(squads) {
             tr.append(td)
             $("#table_managers").append(tr);
         });
-        
-        managerList.sort(function(a, b) {
-            return sortPoints(managerDict[a], managerDict[b])
-                || sortName(a, b);
-        });
-        
+  
         $.each(managerList, function(rank, nameManager) {
             var manager = managerDict[nameManager];
             manager["players"].sort(function(a, b) {
