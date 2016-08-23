@@ -26,8 +26,7 @@ $.getJSON("data/squads.json", function(squads) {
                 "name": player["player"],
                 "team": squad["team"],
                 "points": 0,
-                "position": player["position"],
-                "manager": null};
+                "position": player["position"]};
         });
     });
     
@@ -52,7 +51,7 @@ $.getJSON("data/squads.json", function(squads) {
                     if (type == "Draft") {
                         var player = playerDict[data["player"]];
                         var manager = managerDict[data["manager"]];
-                        player["manager"] = data["manager"];
+                        manager["players"].push(data["player"]);
                         tr = getRow();
                         tr.append($("<td>").append(getDescriptor(type, ++manager["drafts"])));
                         tr.append($("<td>").append(getPerson(player)));
@@ -60,9 +59,11 @@ $.getJSON("data/squads.json", function(squads) {
                     } else if (type == "Transfer") {
                         var playerOut = playerDict[data["out"]];
                         var playerIn = playerDict[data["in"]];
-                        var manager = managerDict[playerOut["manager"]];
-                        playerIn["manager"] = playerOut["manager"];
-                        playerOut["manager"] = null;
+                        var manager = managerDict[data["manager"]];
+                        var index = manager["players"].indexOf(data["out"]);    // <-- Not supported in <IE9
+                        if (index !== -1) {
+                            manager["players"].splice(index, 1, data["in"]);
+                        }
                         tr = getRow();
                         tr.append($("<td>").append(getDescriptor(type, ++manager["transfers"])));
                         tr.append($("<td>").append(getPerson(playerIn, "in")).append(getPerson(playerOut, "out")));
@@ -95,10 +96,6 @@ $.getJSON("data/squads.json", function(squads) {
         
         $.each(playerList, function(undefined, namePlayer) {
             var player = playerDict[namePlayer];
-            if (player["manager"] != null) {
-                var manager = managerDict[player["manager"]];
-                manager["players"].push(namePlayer);
-            }
             var tr = getRow(player["points"]);
             tr.append($("<td>").append(getPerson(player)));
             var td = getRow(player["points"]);
