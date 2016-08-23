@@ -121,6 +121,27 @@ $.getJSON("data/squads.json", function(squads) {
             tr.append(td)
             $("#table_managers").append(tr);
         });
+        
+        managerList.sort(function(a, b) {
+            return sortPoints(managerDict[a], managerDict[b])
+                || sortName(a, b);
+        });
+        
+        $.each(managerList, function(rank, nameManager) {
+            var manager = managerDict[nameManager];
+            manager["players"].sort(function(a, b) {
+                return sortPosition(playerDict[a], playerDict[b]);
+            });
+            var td = $("<td>");
+            $.each(manager["players"], function(undefined, namePlayer) {
+                var player = playerDict[namePlayer];
+                td.append(getPerson(player));
+            });
+            var tr = getRow(rank == 0 ? 1 : rank == managerList.length-1 ? -1 : 0);
+            tr.append($("<td>").append(getPerson(manager)));
+            tr.append(td);
+            $("#table_teams").append(tr);
+        });
     });
 });
 
