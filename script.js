@@ -60,10 +60,10 @@ $.getJSON("data/squads.json", function(squads) {
                         var playerOut = playerDict[data["out"]];
                         var playerIn = playerDict[data["in"]];
                         var manager = managerDict[data["manager"]];
-                        var index = manager["players"].indexOf(data["out"]);    // <-- Not supported in <IE9
-                        if (index !== -1) {
-                            manager["players"].splice(index, 1, data["in"]);
-                        }
+                        //var index = manager["players"].indexOf(data["out"]);
+                        //if (index !== -1) {
+                        //    manager["players"].splice(index, 1, data["in"]);
+                        //}
                         tr = getRow();
                         tr.append($("<td>").append(getDescriptor(type, ++manager["transfers"])));
                         tr.append($("<td>").append(getPerson(playerIn, "in")).append(getPerson(playerOut, "out")));
