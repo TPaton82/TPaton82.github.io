@@ -19,6 +19,7 @@
   {"Draft": {"manager": "Sam Scott", "player": "Rhys Morgan"}},
   
   {"Transfer": {"manager": "Tom Paton","out": "Chris Turner", "in": "Harry Collins"}},
+  {"Transfer": {"manager": "Tom Paton","out": "Harry Collins", "in": "Zak Jordan"}},
   
   {"Assist": "Rhys Morgan", "Goal": "Timmy"},
   {"Appearance": "Chris Turner"},
