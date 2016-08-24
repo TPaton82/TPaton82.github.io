@@ -29,6 +29,7 @@ $.getJSON("data/squads.json", function(squads) {
                 "goals": 0,
                 "assists": 0,
                 "penalties": 0,
+                "appearances": 0,
                 "value": player["value"],
                 "position": player["position"]};
         });
@@ -77,6 +78,15 @@ $.getJSON("data/squads.json", function(squads) {
                     } else {
                         var player = playerDict[data];
                         var points = TYPES[type][player["position"]];
+                        if (type == "Goal") {
+                            player["goals"] += 1;
+                        }
+                        if (type == "Assist") {
+                            player["assists"] += 1;
+                        }
+                        if (type == "Appearance") {
+                            player["appearances"] += 1;
+                        }
                         player["points"] += points;
                         $.each(managerList, function(undefined, nameManager) {
                             var manager = managerDict[nameManager];
