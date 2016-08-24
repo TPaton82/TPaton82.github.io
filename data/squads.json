@@ -6,9 +6,9 @@
     {"player": "Spewey", "position": "DF", "value": 5},
     {"player": "Rhys Morgan", "position": "MF", "value": 12.5},
     {"player": "Hector", "position": "MF", "value": 8},
-    {"player": "Timmy", "position": "FW", "value": 13},
+    {"player": "Tom Paton", "position": "FW", "value": 13},
     {"player": "John Wheeldon", "position": "MF", "value": 10},
-    {"player": "Harry Collins", "position": "FW", "value": 8.5}
+    {"player": "Harry Collins", "position": "MF", "value": 8.5}
   ]},
   {"team": "Hillcroft", "players": [
     {"player": "Fingers", "position": "GK", "value": 9},
