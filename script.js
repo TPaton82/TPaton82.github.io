@@ -139,7 +139,6 @@ $.getJSON("data/squads.json", function(squads) {
             });
             var tr = getRow(rank == 0 ? 1 : rank == managerList.length-1 ? -1 : 0);
             tr.append($("<td>").append(getPerson(manager)));
-            ts.append($("<td>").append(getValue(player)));
             tr.append($("<td>").append(td));
             tr.append($("<td>").append("£" + manager["teamvalue"] + "m"));
             $("#table_teams").append(tr);
