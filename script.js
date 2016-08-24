@@ -199,7 +199,7 @@ function getPoints(data, sub) {
 
 function getValue(data, sub) {
     var p = $("<p>");
-    p.append("£" + data["value"]);
+    p.append("£" + data["value"] + "m");
     return p;
 }
 
