@@ -26,7 +26,7 @@ $.getJSON("data/squads.json", function(squads) {
                 "name": player["player"],
                 "team": squad["team"],
                 "points": 0,
-                "cost": player["value"]
+                "cost": player["value"],
                 "position": player["position"]};
         });
     });
