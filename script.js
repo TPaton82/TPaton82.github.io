@@ -92,16 +92,12 @@ $.getJSON("data/squads.json", function(squads) {
                     } else if (type == "Points") {
                         var player = playerDict[data["player"]];
                         var points = TYPES[type][player["position"]];
-                        if (type == "Goal") {
-                            player["goals"] += 1;
-                        }
-                        if (type == "Assist") {
-                            player["assists"] += 1;
-                        }
-                        if (type == "Appearance") {
-                            player["appearances"] += 1;
-                        }
-                        player["points"] += points;
+                        player["points"] += ( (data["Goal"] * points)
+                                            + (data["Assist"] * points)
+                                            + (data["Appearance"] * points)
+                                            + (points[data["Goals Conceded"]])
+                                            + (points[data["Penalty"]])
+                                            );
                         $.each(managerList, function(undefined, nameManager) {
                             var manager = managerDict[nameManager];
                             if (manager["players"].indexOf(player["name"]) !== -1) {
