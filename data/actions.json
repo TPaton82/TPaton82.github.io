@@ -2,6 +2,7 @@
   {"Manager": {"manager": "Tom Paton", "team": "Chillcroft"}},
   {"Manager": {"manager": "Rhys Morgan", "team": "Chillcroft"}},
   {"Manager": {"manager": "Sam Scott", "team": "Chillcroft"}},  
+  {"Manager": {"manager": "Chris Turner", "team": "Hillcroft"}},  
   
   {"Draft": {"manager": "Tom Paton", "player": "Chris Turner"}},
   {"Draft": {"manager": "Tom Paton", "player": "Timmy"}},
@@ -18,6 +19,11 @@
   {"Draft": {"manager": "Sam Scott", "player": "Harry Collins"}},
   {"Draft": {"manager": "Sam Scott", "player": "Rhys Morgan"}},
   
+  {"Draft": {"manager": "Chris Turner", "player": "Rhys Morgan"}},
+  {"Draft": {"manager": "Chris Turner", "player": "Chris Turner"}},
+  {"Draft": {"manager": "Chris Turner", "player": "Fingers"}},
+  {"Draft": {"manager": "Chris Turner", "player": "Ed Biegel"}},
+  
   {"Transfer": {"manager": "Tom Paton","out": "Chris Turner", "in": "Harry Collins"}},
   {"Transfer": {"manager": "Tom Paton","out": "Harry Collins", "in": "Zak Jordan"}},
   {"Transfer": {"manager": "Sam Scott","out": "Rhys Morgan", "in": "Timmy"}},
@@ -26,4 +32,6 @@
   {"Appearance": "Chris Turner"},
   {"Clean Sheet": "Fingers"},
   {"Assist": "Sam Scott", "Goal": "Rhys Morgan"}
+  {"Appearance": "Ed Biegel"},
+  {"Clean Sheet": "Ed Biegel"},
 ]
