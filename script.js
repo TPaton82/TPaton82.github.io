@@ -26,6 +26,9 @@ $.getJSON("data/squads.json", function(squads) {
                 "name": player["player"],
                 "team": squad["team"],
                 "points": 0,
+                "goals": 0,
+                "assists": 0,
+                "penalties": 0,
                 "value": player["value"],
                 "position": player["position"]};
         });
