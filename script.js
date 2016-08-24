@@ -104,8 +104,8 @@ $.getJSON("data/squads.json", function(squads) {
             td.append($("<td>").append(getPoints(player)));
             var ts = getRow(player["points"]);
             ts.append($("<td>").append(getValue(player)));
-            tr.append(td)
             tr.append(ts)
+            tr.append(td)
             $("#table_players").append(tr);
         });
         
