@@ -26,7 +26,7 @@ $.getJSON("data/squads.json", function(squads) {
                 "name": player["player"],
                 "team": squad["team"],
                 "points": 0,
-                "cost": player["value"],
+                "value": player["value"],
                 "position": player["position"]};
         });
     });
@@ -45,6 +45,7 @@ $.getJSON("data/squads.json", function(squads) {
                         "team": data["team"],
                         "points": 0,
                         "drafts": 0,
+                        "teamvalue": 0,
                         "transfers": 0,
                         "players": []};
                 } else {
@@ -53,6 +54,7 @@ $.getJSON("data/squads.json", function(squads) {
                         var player = playerDict[data["player"]];
                         var manager = managerDict[data["manager"]];
                         manager["players"].push(data["player"]);
+                        manager["teamvalue"] += player["value"];
                         tr = getRow();
                         tr.append($("<td>").append(getDescriptor(type, ++manager["drafts"])));
                         tr.append($("<td>").append(getPerson(player)));
@@ -100,7 +102,10 @@ $.getJSON("data/squads.json", function(squads) {
             tr.append($("<td>").append(getPerson(player)));
             var td = getRow(player["points"]);
             td.append($("<td>").append(getPoints(player)));
+            var ts = getRow(player["points"]);
+            ts.append($("<td>").append(getValue(player)));
             tr.append(td)
+            tr.append(ts)
             $("#table_players").append(tr);
         });
         
@@ -189,6 +194,12 @@ function getPerson(data, sub) {
 function getPoints(data, sub) {
     var p = $("<p>");
     p.append(data["points"]);
+    return p;
+}
+
+function getValue(data, sub) {
+    var p = $("<p>");
+    p.append(data["value"]);
     return p;
 }
 
