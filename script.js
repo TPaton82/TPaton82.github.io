@@ -206,8 +206,8 @@ function getValue(data, sub) {
 
 function getFlag(team) {
     var img = $("<img>");
-    img.attr("src", "images/flags/TP.GIF");
-    img.attr("style", "height: 16; width: 24; margin: 0 8");
+    img.attr("src", "images/flags/ + player + .GIF");
+    img.attr("style", "height: 20; width: 24; margin: 0 8");
     return img;
 }
 
