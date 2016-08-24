@@ -76,7 +76,7 @@ $.getJSON("data/squads.json", function(squads) {
                             var manager = managerDict[nameManager];
                             var index = manager["players"].indexOf(player["name"]);
                             if (index !== -1) {
-                                manager["points"] += points
+                                manager["points"] += points;
                             }
                         });
                         tr = getRow(points);
