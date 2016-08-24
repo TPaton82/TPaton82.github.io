@@ -5,12 +5,12 @@
   {"Manager": {"manager": "Chris Turner", "team": "Hillcroft"}},  
   
   {"Draft": {"manager": "Tom Paton", "player": "Chris Turner"}},
-  {"Draft": {"manager": "Tom Paton", "player": "Timmy"}},
+  {"Draft": {"manager": "Tom Paton", "player": "Tom Paton"}},
   {"Draft": {"manager": "Tom Paton", "player": "Sam Scott"}},
   {"Draft": {"manager": "Tom Paton", "player": "Rhys Morgan"}},
   
   {"Draft": {"manager": "Rhys Morgan", "player": "Fingers"}},
-  {"Draft": {"manager": "Rhys Morgan", "player": "Timmy"}},
+  {"Draft": {"manager": "Rhys Morgan", "player": "Tom Paton"}},
   {"Draft": {"manager": "Rhys Morgan", "player": "Ken Koi"}},
   {"Draft": {"manager": "Rhys Morgan", "player": "Rhys Morgan"}},
   
@@ -26,12 +26,12 @@
   
   {"Transfer": {"manager": "Tom Paton","out": "Chris Turner", "in": "Harry Collins"}},
   {"Transfer": {"manager": "Tom Paton","out": "Harry Collins", "in": "Zak Jordan"}},
-  {"Transfer": {"manager": "Sam Scott","out": "Rhys Morgan", "in": "Timmy"}},
+  {"Transfer": {"manager": "Sam Scott","out": "Rhys Morgan", "in": "Tom Paton"}},
   
-  {"Assist": "Rhys Morgan", "Goal": "Timmy"},
-  {"Appearance": "Chris Turner"},
-  {"Clean Sheet": "Fingers"},
-  {"Assist": "Sam Scott", "Goal": "Rhys Morgan"},
-  {"Appearance": "Ed Biegel"},
-  {"Clean Sheet": "Ed Biegel"}
+  {"Points": {"player": "Rhys Morgan", "Assist": 1, "Goal": 1, "Appearance": 1, "Goals Conceded": 3}},
+  {"Points": {"player": "Chris Turner", "Assist": 0, "Goal": 0, "Appearance": 1, "Goals Conceded": 6}},
+  {"Points": {"player": "Fingers", "Assist": 0, "Goal": 0, "Appearance": 1, "Goals Conceded": 6}},
+  {"Points": {"player": "Sam Scott", "Assist": 1, "Goal": 0, "Appearance": 1, "Goals Conceded": 3}},
+  {"Points": {"player": "Ed Biegel", "Assist": 0, "Goal": 0, "Appearance": 1, "Goals Conceded": 3}},
+  {"Points": {"player": "Tom Paton", "Assist": 2, "Goal": 1, "Appearance": 1, "Goals Conceded": 3}}
 ]
