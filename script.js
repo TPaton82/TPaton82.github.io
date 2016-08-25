@@ -102,7 +102,7 @@ $.getJSON("data/squads.json", function(squads) {
                                      + data["Assist"] * assist
                                      + data["Appearance"] * appearance
                                      + goalconceded[data["Goals Conceded"]]
-                                     //+ penalty[data["Penalty"]]
+                                     + penalty[data["Penalty"]]
                         player["points"] += points;
                         $.each(managerList, function(undefined, nameManager) {
                             var manager = managerDict[nameManager];
