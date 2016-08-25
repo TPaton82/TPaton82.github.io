@@ -96,11 +96,11 @@ $.getJSON("data/squads.json", function(squads) {
                         var appearance = TYPES["Appearance"][player["position"]];
                         var goalconceded = TYPES["Goals Conceded"][player["position"]];
                         var penalty = TYPES["Penalty"][player["position"]];
-                        var points = (data["Goal"] * goal)
-                                     + (data["Assist"] * assist)
-                                     + (data["Appearance"] * appearance)
-                                     + (goalconceded[data["Goals Conceded"]])
-                                     + (penalty[data["Penalty"]])
+                        var points = data["Goal"] * goal
+                                     + data["Assist"] * assist
+                                     + data["Appearance"] * appearance
+                                     + goalconceded[data["Goals Conceded"]]
+                                     + penalty[data["Penalty"]]
                         player["points"] += points;
                         $.each(managerList, function(undefined, nameManager) {
                             var manager = managerDict[nameManager];
