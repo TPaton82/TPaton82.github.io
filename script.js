@@ -105,7 +105,12 @@ $.getJSON("data/squads.json", function(squads) {
                         $.each(managerList, function(undefined, nameManager) {
                             var manager = managerDict[nameManager];
                             if (manager["players"].indexOf(player["name"]) !== -1) {
-                                manager["points"] += points;
+                                manager["points"] += ( (data["Goal"] * goal)
+                                                  + (data["Assist"] * assist)
+                                                  + (data["Appearance"] * appearance)
+                                                  + (goalconceded[data["Goals Conceded"]])
+                                                  + (penalty[data["Penalty"]])
+                                                  );
                             }
                         });
                         tr = getRow(points);
