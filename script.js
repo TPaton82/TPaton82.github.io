@@ -91,12 +91,16 @@ $.getJSON("data/squads.json", function(squads) {
                         tr.append($("<td>").append(getPerson(manager)));
                     } else if (type == "Points") {
                         var player = playerDict[data["player"]];
-                        var points = TYPES[type][player["position"]];
-                        player["points"] += ( (data["Goal"] * points)
-                                            + (data["Assist"] * points)
-                                            + (data["Appearance"] * points)
-                                            + (points[data["Goals Conceded"]])
-                                            + (points[data["Penalty"]])
+                        var goal = TYPES["Goal"][player["position"]];
+                        var assist = TYPES["Assist"][player["position"]];
+                        var appearance = TYPES["Appearance"][player["position"]];
+                        var goalconceded = TYPES["Goals Conceded"][player["position"]];
+                        var penalty = TYPES["Penalty"][player["position"]];
+                        player["points"] += ( (data["Goal"] * goal)
+                                            + (data["Assist"] * assist)
+                                            + (data["Appearance"] * appearance)
+                                            + (goalconceded[data["Goals Conceded"]])
+                                            + (penalty[data["Penalty"]])
                                             );
                         $.each(managerList, function(undefined, nameManager) {
                             var manager = managerDict[nameManager];
