@@ -10,7 +10,7 @@ const TYPES = {
                       {"0":8 ,"1":8 ,"2":6 ,"3":6 ,"4":5 ,"5":5 ,"6":4 ,"7":4 ,"8":3 ,"9":3 ,"10":0 ,"11":-1 ,"12":-1 ,"13":-2 ,"14":-2 ,"15":-3 ,"16":-3 ,"17":-4 ,"18":-4 ,"19":-5 ,"20":-5},   
                     "MF": 
                       {"0":4 ,"1":4 ,"2":3 ,"3":3 ,"4":2.5 ,"5":2.5 ,"6":2 ,"7":2 ,"8":1.5 ,"9":1.5 ,"10":0 ,"11":-0.5 ,"12":-0.5 ,"13":-1 ,"14":-1 ,"15":-1.5 ,"16":-1.5 ,"17":-2 ,"18":-2 ,"19":-2.5 ,"20":-2.5},
-                      "FW":
+                    "FW":
                       {"0":0 ,"1":0 ,"2":0 ,"3":0 ,"4":0 ,"5":0 ,"6":0 ,"7":0 ,"8":0 ,"9":0 ,"10":0 ,"11":0 ,"12":0 ,"13":0 ,"14":0 ,"15":0 ,"16":0 ,"17":0 ,"18":0 ,"19":0 ,"20":0}
                     },
   "Penalty": {"GK": 
@@ -96,12 +96,12 @@ $.getJSON("data/squads.json", function(squads) {
                         var goal = TYPES["Goal"][player["position"]];
                         var assist = TYPES["Assist"][player["position"]];
                         var appearance = TYPES["Appearance"][player["position"]];
-                        var goalconceded = TYPES["Goals Conceded"][player["position"]];
+                        var goalconceded=  TYPES["Goals Conceded"][player["position"]];
                         var penalty = TYPES["Penalty"][player["position"]];
                         var points = data["Goal"] * goal
                                      + data["Assist"] * assist
                                      + data["Appearance"] * appearance
-                                     //+ goalconceded[data["Goals Conceded"]]
+                                     + goalconceded[data["Goals Conceded"]]
                                      //+ penalty[data["Penalty"]]
                         player["points"] += points;
                         $.each(managerList, function(undefined, nameManager) {
