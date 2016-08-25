@@ -99,8 +99,8 @@ $.getJSON("data/squads.json", function(squads) {
                         var goalconceded = TYPES["Goals Conceded"][player["position"]];
                         var penalty = TYPES["Penalty"][player["position"]];
                         var points = data["Goal"] * goal
-                                     //+ data["Assist"] * assist
-                                     //+ data["Appearance"] * appearance
+                                     + data["Assist"] * assist
+                                     + data["Appearance"] * appearance
                                      //+ goalconceded[data["Goals Conceded"]]
                                      //+ penalty[data["Penalty"]]
                         player["points"] += points;
