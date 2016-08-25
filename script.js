@@ -46,6 +46,7 @@ $.getJSON("data/squads.json", function(squads) {
                 "assists": 0,
                 "penalties": 0,
                 "appearances": 0,
+                "goalsconceded": 0,
                 "value": player["value"],
                 "position": player["position"]};
         });
@@ -104,10 +105,11 @@ $.getJSON("data/squads.json", function(squads) {
                                      + goalconceded[data["Goals Conceded"]]
                                      + penalty[data["Penalty"]]
                         player["points"] += points;
-                        player["goals"] += data["Goal"]
-                        player["assists"] += data["Assist"]
-                        player["penalties"] += data["Penalty"]
-                        player["appearances"] += data["Appearance"]
+                        player["goals"] += data["Goal"];
+                        player["assists"] += data["Assist"];
+                        player["penalties"] += data["Penalty"];
+                        player["appearances"] += data["Appearance"];
+                        player["goalsconceded"] += data["Goals Conceded"];
                         $.each(managerList, function(undefined, nameManager) {
                             var manager = managerDict[nameManager];
                             if (manager["players"].indexOf(player["name"]) !== -1) {
@@ -142,11 +144,14 @@ $.getJSON("data/squads.json", function(squads) {
             var tj = getRow(player["points"]);
             tj.append($("<td>").append(getAppearances(player)));
             var ts = getRow(player["points"]);
-            ts.append($("<td>").append(getValue(player)));            
+            ts.append($("<td>").append(getValue(player)));         
+            var tu = getRow(player["points"]);
+            tu.append($("<td>").append(getGoalsConceded(player)));              
             tr.append($("<td>").append(ts));
             tr.append($("<td>").append(tj));
             tr.append($("<td>").append(ti));
             tr.append($("<td>").append(tw));
+            tr.append($("<td>").append(tu));
             tr.append($("<td>").append(td));
             $("#table_players").append(tr);
         });
@@ -249,6 +254,12 @@ function getValue(data, sub) {
 function getGoals(data, sub) {
     var p = $("<p>");
     p.append(data["goals"]);
+    return p;
+}
+
+function getGoalsConceded(data, sub) {
+    var p = $("<p>");
+    p.append(data["goalsconceded"]);
     return p;
 }
 
