@@ -47,6 +47,7 @@ $.getJSON("data/squads.json", function(squads) {
                 "penalties": 0,
                 "appearances": 0,
                 "goalsconceded": 0,
+                "gameweekpoints": 0,
                 "value": player["value"],
                 "position": player["position"]};
         });
@@ -110,6 +111,7 @@ $.getJSON("data/squads.json", function(squads) {
                         player["penalties"] += data["Penalty"];
                         player["appearances"] += data["Appearance"];
                         player["goalsconceded"] += data["Goals Conceded"];
+                        player["gameweekpoints"] = points;
                         $.each(managerList, function(undefined, nameManager) {
                             var manager = managerDict[nameManager];
                             if (manager["players"].indexOf(player["name"]) !== -1) {
@@ -146,12 +148,15 @@ $.getJSON("data/squads.json", function(squads) {
             var ts = getRow(player["points"]);
             ts.append($("<td>").append(getValue(player)));         
             var tu = getRow(player["points"]);
-            tu.append($("<td>").append(getGoalsConceded(player)));              
+            tu.append($("<td>").append(getGoalsConceded(player)));  
+            var th = getRow(player["points"]);
+            th.append($("<td>").append(player["gameweekpoints"]));           
             tr.append($("<td>").append(ts));
             tr.append($("<td>").append(tj));
             tr.append($("<td>").append(ti));
             tr.append($("<td>").append(tw));
             tr.append($("<td>").append(tu));
+            tr.append($("<td>").append(th));
             tr.append($("<td>").append(td));
             $("#table_players").append(tr);
         });
