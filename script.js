@@ -4,6 +4,8 @@ const TYPES = {
   "Appearance": {"GK": 3, "DF": 3, "MF": 3, "FW": 3},
   "Goal": {"GK": 5, "DF": 4, "MF": 3, "FW": 2},
   "Assist": {"GK": 4, "DF": 2, "MF": 1.5, "FW": 1.5},
+  "MOM": {"GK": 3, "DF": 3, "MF": 3, "FW": 3},
+  "DOD": {"GK": 3, "DF": 3, "MF": 3, "FW": 3},
   "Goals Conceded": {"GK": 
                       {"0":8 ,"1":8 ,"2":6 ,"3":6 ,"4":5 ,"5":5 ,"6":4 ,"7":4 ,"8":3 ,"9":3 ,"10":0 ,"11":-1 ,"12":-1 ,"13":-2 ,"14":-2 ,"15":-3 ,"16":-3 ,"17":-4 ,"18":-4 ,"19":-5 ,"20":-5}, 
                     "DF": 
@@ -48,6 +50,8 @@ $.getJSON("data/squads.json", function(squads) {
                 "appearances": 0,
                 "goalsconceded": 0,
                 "gameweekpoints": 0,
+                "MOM": 0,
+                "DOD": 0,
                 "value": player["value"],
                 "position": player["position"]};
         });
@@ -98,11 +102,15 @@ $.getJSON("data/squads.json", function(squads) {
                         var goal = TYPES["Goal"][player["position"]];
                         var assist = TYPES["Assist"][player["position"]];
                         var appearance = TYPES["Appearance"][player["position"]];
+                        var MOM = TYPES["MOM"][player["position"]];
+                        var DOD = TYPES["DOD"][player["position"]];
                         var goalconceded=  TYPES["Goals Conceded"][player["position"]];
                         var penalty = TYPES["Penalty"][player["position"]];
                         var points = data["Goal"] * goal
                                      + data["Assist"] * assist
                                      + data["Appearance"] * appearance
+                                     + data["MOM"] * MOM
+                                     + data["DOD"] * DOD
                                      + goalconceded[data["Goals Conceded"]]
                                      + penalty[data["Penalty"]]
                         player["points"] += points;
@@ -110,6 +118,8 @@ $.getJSON("data/squads.json", function(squads) {
                         player["assists"] += data["Assist"];
                         player["penalties"] += data["Penalty"];
                         player["appearances"] += data["Appearance"];
+                        player["MOM"] += data["MOM"];
+                        player["DOD"] += data["DOD"];
                         player["goalsconceded"] += data["Goals Conceded"];
                         player["gameweekpoints"] = points;
                         $.each(managerList, function(undefined, nameManager) {
