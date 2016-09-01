@@ -160,7 +160,11 @@ $.getJSON("data/squads.json", function(squads) {
             var tu = getRow(player["points"]);
             tu.append($("<td>").append(getGoalsConceded(player)));  
             var th = getRow(player["points"]);
-            th.append($("<td>").append(player["gameweekpoints"]));           
+            th.append($("<td>").append(player["gameweekpoints"]));     
+            var tq = getRow(player["points"]);
+            tq.append($("<td>").append(getMOM(player)));         
+            var tz = getRow(player["points"]);
+            tz.append($("<td>").append(getDOD(player)));             
             tr.append($("<td>").append(ts));
             tr.append($("<td>").append(tj));
             tr.append($("<td>").append(ti));
@@ -168,6 +172,8 @@ $.getJSON("data/squads.json", function(squads) {
             tr.append($("<td>").append(tu));
             tr.append($("<td>").append(th));
             tr.append($("<td>").append(td));
+            tr.append($("<td>").append(tq));
+            tr.append($("<td>").append(tz));
             $("#table_players").append(tr);
         });
         
@@ -287,6 +293,18 @@ function getAssists(data, sub) {
 function getAppearances(data, sub) {
     var p = $("<p>");
     p.append(data["appearances"]);
+    return p;
+}
+
+function getMOM(data, sub) {
+    var p = $("<p>");
+    p.append(data["mom"]);
+    return p;
+}
+
+function getDOD(data, sub) {
+    var p = $("<p>");
+    p.append(data["dod"]);
     return p;
 }
 
