@@ -100,19 +100,12 @@ $.getJSON("data/squads.json", function(squads) {
                     } else if (type == "Points") {
                         var player = playerDict[data["player"]];
                         var goal = TYPES["Goal"][player["position"]];
-                        if (isNaN(goal)) {goal = 0;}
                         var assist = TYPES["Assist"][player["position"]];
-                        if (isNaN(assist)) {assist = 0;}
                         var appearance = TYPES["Appearance"][player["position"]];
-                        if (isNaN(appearance)) {appearance = 0;}
                         var mom = TYPES["mom"][player["position"]];
-                        if (isNaN(mom)) {mom = 0;}
                         var dod = TYPES["dod"][player["position"]];
-                        if (isNaN(dod)) {dod = 0;}
                         var goalconceded=  TYPES["Goals Conceded"][player["position"]];
-                        if (isNaN(goalconceded)) {goalconceded = 0;}
                         var penalty = TYPES["Penalty"][player["position"]];
-                        if (isNaN(penalty)) {penalty = 0;}
                         var points = data["Goal"] * goal
                                      + data["Assist"] * assist
                                      + data["Appearance"] * appearance
