@@ -99,21 +99,21 @@ $.getJSON("data/squads.json", function(squads) {
                         tr.append($("<td>").append(getPerson(manager)));
                     } else if (type == "Points") {
                         var player = playerDict[data["player"]];
-                        player = player || 0
+                        if (isNaN(player)) player = 0;
                         var goal = TYPES["Goal"][player["position"]];
-                        goal = goal || 0
+                        if (isNaN(goal)) goal = 0;
                         var assist = TYPES["Assist"][player["position"]];
-                        assist = assist || 0
+                        if (isNaN(assist)) assist = 0;
                         var appearance = TYPES["Appearance"][player["position"]];
-                        appearance = appearance || 0
+                        if (isNaN(appearance)) appearance = 0;
                         var mom = TYPES["mom"][player["position"]];
-                        mom = mom || 0
+                        if (isNaN(mom)) mom = 0;
                         var dod = TYPES["dod"][player["position"]];
-                        dod = dod || 0
+                        if (isNaN(dod)) dod = 0;
                         var goalconceded=  TYPES["Goals Conceded"][player["position"]];
-                        goalconceded = goalconceded || 0
+                        if (isNaN(goalconceded)) goalconceded = 0;
                         var penalty = TYPES["Penalty"][player["position"]];
-                        penalty = penalty || 0
+                        if (isNaN(penalty)) penalty = 0;
                         var points = data["Goal"] * goal
                                      + data["Assist"] * assist
                                      + data["Appearance"] * appearance
