@@ -28,11 +28,11 @@
   {"Transfer": {"manager": "Tom Paton","out": "Harry Collins", "in": "Zak Jordan"}},
   {"Transfer": {"manager": "Sam Scott","out": "Rhys Morgan", "in": "Tom Paton"}},
   
-  {"Points": {"player": "Rhys Morgan", "Assist": 1, "Goal": 1, "Appearance": 1, "Goals Conceded": 3, "Penalty": 0}},
-  {"Points": {"player": "Chris Turner", "Assist": 0, "Goal": 0, "Appearance": 1, "Goals Conceded": 6, "Penalty": 0}},
-  {"Points": {"player": "Mathew O'Leary", "Assist": 0, "Goal": 0, "Appearance": 1, "Goals Conceded": 6, "Penalty": 0}},
-  {"Points": {"player": "Sam Scott", "Assist": 1, "Goal": 0, "Appearance": 1, "Goals Conceded": 3, "Penalty": 0}},
-  {"Points": {"player": "Ed Biegel", "Assist": 0, "Goal": 0, "Appearance": 1, "Goals Conceded": 3, "Penalty": 0}},
-  {"Points": {"player": "Tom Paton", "Assist": 2, "Goal": 1, "Appearance": 1, "Goals Conceded": 3, "Penalty": 0}},
-   {"Points": {"player": "Tom Paton", "Assist": 1, "Goal": 2, "Appearance": 1, "Goals Conceded": 5, "Penalty": 0}}
+  {"Points": {"player": "Rhys Morgan", "Assist": 1, "Goal": 1, "Appearance": 1, "Goals Conceded": 3, "Penalty": 0, "mom": 1, "dod": 0}},
+  {"Points": {"player": "Chris Turner", "Assist": 0, "Goal": 0, "Appearance": 1, "Goals Conceded": 6, "Penalty": 0, "mom": 0, "dod": 0}},
+  {"Points": {"player": "Mathew O'Leary", "Assist": 0, "Goal": 0, "Appearance": 1, "Goals Conceded": 6, "Penalty": 0, "mom": 0, "dod": 0}},
+  {"Points": {"player": "Sam Scott", "Assist": 1, "Goal": 0, "Appearance": 1, "Goals Conceded": 3, "Penalty": 0, "mom": 0, "dod": 0}},
+  {"Points": {"player": "Ed Biegel", "Assist": 0, "Goal": 0, "Appearance": 1, "Goals Conceded": 3, "Penalty": 0, "mom": 0, "dod": 1}},
+  {"Points": {"player": "Tom Paton", "Assist": 2, "Goal": 1, "Appearance": 1, "Goals Conceded": 3, "Penalty": 0, "mom": 0, "dod": 0}},
+   {"Points": {"player": "Tom Paton", "Assist": 1, "Goal": 2, "Appearance": 1, "Goals Conceded": 5, "Penalty": 0, "mom": 0, "dod": 0}}
 ]
