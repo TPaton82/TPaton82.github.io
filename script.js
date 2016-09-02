@@ -98,29 +98,29 @@ $.getJSON("data/squads.json", function(squads) {
                         tr.append($("<td>").append(getPerson(playerIn, "in")).append(getPerson(playerOut, "out")));
                         tr.append($("<td>").append(getPerson(manager)));
                     } else if (type == "Points") {
-                        var player = playerDict[data["player"]];
-                        var goal = TYPES["Goal"][player["position"]];
-                        var assist = TYPES["Assist"][player["position"]];
-                        var appearance = TYPES["Appearance"][player["position"]];
-                        var mom = TYPES["mom"][player["position"]];
-                        var dod = TYPES["dod"][player["position"]];
-                        var goalconceded=  TYPES["Goals Conceded"][player["position"]];
-                        var penalty = TYPES["Penalty"][player["position"]];
-                        var points = data["Goal"] * goal
-                                     + data["Assist"] * assist
-                                     + data["Appearance"] * appearance
-                                     + data["mom"] * mom
-                                     + data["dod"] * dod
-                                     + goalconceded[data["Goals Conceded"]]
+                        var player = playerDict[data["player"]] || 0;
+                        var goal = TYPES["Goal"][player["position"]] || 0;
+                        var assist = TYPES["Assist"][player["position"]] || 0;
+                        var appearance = TYPES["Appearance"][player["position"]] || 0;
+                        var mom = TYPES["mom"][player["position"]] || 0;
+                        var dod = TYPES["dod"][player["position"]] || 0;
+                        var goalconceded=  TYPES["Goals Conceded"][player["position"]] || 0;
+                        var penalty = TYPES["Penalty"][player["position"]] || 0;
+                        var points = goal * data["Goal"] || 0
+                                     + assist * data["Assist"]  || 0
+                                     + appearance * data["Appearance"] || 0
+                                     + mom * data["mom"] || 0
+                                     + dod * data["dod"] || 0
+                                     + goalconceded[data["Goals Conceded"]] 
                                      + penalty[data["Penalty"]]
                         player["points"] += points;
-                        player["goals"] += data["Goal"];
-                        player["assists"] += data["Assist"];
-                        player["penalties"] += data["Penalty"];
-                        player["appearances"] += data["Appearance"];
-                        player["mom"] += data["mom"];
-                        player["dod"] += data["dod"];
-                        player["goalsconceded"] += data["Goals Conceded"];
+                        player["goals"] += data["Goal"] || 0;
+                        player["assists"] += data["Assist"] || 0;
+                        player["penalties"] += data["Penalty"] || 0;
+                        player["appearances"] += data["Appearance"] || 0;
+                        player["mom"] += data["mom"] || 0;
+                        player["dod"] += data["dod"] || 0;
+                        player["goalsconceded"] += data["Goals Conceded"] || 0;
                         player["gameweekpoints"] = points;
                         $.each(managerList, function(undefined, nameManager) {
                             var manager = managerDict[nameManager];
