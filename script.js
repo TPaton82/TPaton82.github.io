@@ -104,7 +104,7 @@ $.getJSON("data/squads.json", function(squads) {
                         var appearance = (TYPES["Appearance"][player["position"]] || 0);
                         var mom = (TYPES["mom"][player["position"]] || 0);
                         var dod = (TYPES["dod"][player["position"]] || 0);
-                        var goalconceded=  (TYPES["Goals Conceded"][player["position"]] || )0;
+                        var goalconceded=  (TYPES["Goals Conceded"][player["position"]] || 0);
                         var penalty = (TYPES["Penalty"][player["position"]] || 0);
                         var points = (goal * data["Goal"] || 0)
                                      + (assist * data["Assist"] || 0)
