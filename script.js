@@ -98,7 +98,7 @@ $.getJSON("data/squads.json", function(squads) {
                         tr.append($("<td>").append(getPerson(playerIn, "in")).append(getPerson(playerOut, "out")));
                         tr.append($("<td>").append(getPerson(manager)));
                     } else if (type == "Points") {
-                        var player = playerDict[data["player"]] || 0;
+                        var player = playerDict[data["player"]];
                         var goal = TYPES["Goal"][player["position"]] || 0;
                         var assist = TYPES["Assist"][player["position"]] || 0;
                         var appearance = TYPES["Appearance"][player["position"]] || 0;
