@@ -69,6 +69,7 @@ $.getJSON("data/squads.json", function(squads) {
                     managerDict[data["manager"]] = {
                         "name": data["manager"],
                         "team": data["team"],
+                        "teamname": data["teamname"],
                         "points": 0,
                         "drafts": 0,
                         "teamvalue": 0,
