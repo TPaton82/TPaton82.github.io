@@ -1,8 +1,8 @@
 [
-  {"Manager": {"manager": "Tom Paton", "team": "Chillcroft"}},
-  {"Manager": {"manager": "Rhys Morgan", "team": "Chillcroft"}},
-  {"Manager": {"manager": "Sam Scott", "team": "Chillcroft"}},  
-  {"Manager": {"manager": "Chris Turner", "team": "Hillcroft"}},  
+  {"Manager": {"manager": "Tom Paton", "teamname": "105th Batallion"}},
+  {"Manager": {"manager": "Rhys Morgan", "teamname": ""}},
+  {"Manager": {"manager": "Sam Scott", "teamname": ""}},  
+  {"Manager": {"manager": "Chris Turner", "teamname": ""}},  
   
   {"Draft": {"manager": "Tom Paton", "player": "Chris Turner"}},
   {"Draft": {"manager": "Tom Paton", "player": "Tom Paton"}},
