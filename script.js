@@ -200,6 +200,9 @@ $.getJSON("data/squads.json", function(squads) {
             tr.append($("<td>").append(getPerson(manager)));
             var td = getRow(rank == 0 ? 1 : rank == managerList.length-1 ? -1 : 0);
             td.append($("<td>").append(getPoints(manager)));
+            var th = getRow(rank == 0 ? 1 : rank == managerList.length-1 ? -1 : 0);
+            th.append($("<td>").append(getTeamName(manager)));  
+            tr.append(th)
             tr.append(td)
             $("#table_managers").append(tr);
         });
@@ -216,6 +219,9 @@ $.getJSON("data/squads.json", function(squads) {
             });
             var tr = getRow(rank == 0 ? 1 : rank == managerList.length-1 ? -1 : 0);
             tr.append($("<td>").append(getPerson(manager)));
+            var th = getRow(rank == 0 ? 1 : rank == managerList.length-1 ? -1 : 0);
+            th.append($("<td>").append(getTeamName(manager)));  
+            tr.append(th)            
             tr.append($("<td>").append(td));
             tr.append($("<td>").append("£" + manager["teamvalue"] + "m"));
             $("#table_teams").append(tr);
@@ -268,7 +274,13 @@ function getPerson(data, sub) {
     p.append(data["name"]);
     return p;
 }
-  
+
+function getTeamName(data, sub) {
+    var p = $("<p>");
+    p.append(data["teamname"]);
+    return p;
+}
+ 
 function getPoints(data, sub) {
     var p = $("<p>");
     p.append(data["points"]);
