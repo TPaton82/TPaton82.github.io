@@ -7,17 +7,17 @@
     {"player": "Bradd Tipler", "position": "DF", "value": 11.8},
     {"player": "Rhys Morgan", "position": "MF", "value": 17.5},
     {"player": "Alex Harris", "position": "MF", "value": 7.2},
-    {"player": "Mark Thresher", "position": "MF", "value": 3.5},
-    {"player": "Albert Whitehead", "position": "MF", "value": 12.5},
+    {"player": "Mark Thresher", "position": "MF", "value": 7.0},
+    {"player": "Albert Whitehead", "position": "MF", "value": 13.0},
     {"player": "Andrew Macpherson", "position": "MF", "value": 6.4},
     {"player": "Henry Blackhurst", "position": "MF", "value": 8.1},
     {"player": "Hector Smethurst", "position": "MF", "value": 9.7},
     {"player": "Tom Lace", "position": "MF", "value": 15.1},
     {"player": "Evan Yeckley", "position": "MF", "value": 10.9},
     {"player": "Harry Collins", "position": "MF", "value": 11.8},
-    {"player": "Tom Paton", "position": "FW", "value": 13},
-    {"player": "Krish Balinho", "position": "FW", "value": 13},
-    {"player": "John Wheeldon", "position": "FW", "value": 10}
+    {"player": "Tom Paton", "position": "FW", "value": 15.2},
+    {"player": "Krish Balinho", "position": "FW", "value": 10.2},
+    {"player": "John Wheeldon", "position": "FW", "value": 11.4}
   ]},
   {"team": "Hillcroft", "players": [
     {"player": "Mathew O'Leary", "position": "GK", "value": 12.3},
@@ -31,14 +31,16 @@
     {"player": "Tom Ridings", "position": "MF", "value": 7.1},
     {"player": "Liam O'Mahoney", "position": "MF", "value": 12.5},
     {"player": "Thom Gilbrook", "position": "MF", "value": 16.7},
+    {"player": "Cane Napolitano", "position": "MF", "value": 10.5},
+    {"player": "Rhodri Stanford", "position": "MF", "value": 14.0},
     {"player": "Alex Twiss", "position": "MF", "value": 12.4},
     {"player": "Liam Kirwan", "position": "MF", "value": 6.3},
     {"player": "Aaron Fox", "position": "MF", "value": 7.8},
-    {"player": "Eoin Dunne", "position": "FW", "value": 11},
-    {"player": "Matt Tanner", "position": "FW", "value": 11},
-    {"player": "Brian Potter", "position": "FW", "value": 11},
-    {"player": "Jon Arthur", "position": "FW", "value": 11},
-    {"player": "Duncan Trenholme", "position": "FW", "value": 11}
+    {"player": "Eoin Dunne", "position": "FW", "value": 7.6},
+    {"player": "Matt Tanner", "position": "FW", "value": 8.2},
+    {"player": "Brian Potter", "position": "FW", "value": 10.7},
+    {"player": "Jon Arthur", "position": "FW", "value": 10.1},
+    {"player": "Duncan Trenholme", "position": "FW", "value": 7.6}
   ]},
   {"team": "Thrillcroft", "players": [
     {"player": "Dawid Kaczmarski", "position": "GK", "value": 7.7},
@@ -56,17 +58,19 @@
     {"player": "Tim Scott", "position": "MF", "value": 12.1},
     {"player": "Peter Jones", "position": "MF", "value": 7.4},
     {"player": "Paul Sladen", "position": "MF", "value": 5.0},
+    {"player": "Rob Curtis", "position": "MF", "value": 6.0},
     {"player": "Giles Cuddy", "position": "MF", "value": 12.3},
     {"player": "Henry Bliss", "position": "MF", "value": 6.3},
     {"player": "Jacob Derbyshire", "position": "MF", "value": 11.3},
     {"player": "Robin Van der Harst", "position": "MF", "value": 5.9},
-    {"player": "Richard Gorr", "position": "MF", "value": 9.5},
+    {"player": "Richard Gorr", "position": "MF", "value": 5.8},
     {"player": "Simon Moss", "position": "MF", "value": 8.3},
     {"player": "David Travers", "position": "MF", "value": 6.1},
     {"player": "Chris Ablaplanap", "position": "MF", "value": 7.4},
     {"player": "Rob Nichols", "position": "MF", "value": 7.4},
-    {"player": "Ken Koi", "position": "FW", "value": 11.5},
-    {"player": "Fred Hacking", "position": "FW", "value": 11.5},
-    {"player": "Morgan McGrath", "position": "FW", "value": 11.5}
+    {"player": "Ken Koi", "position": "FW", "value": 11.7},
+    {"player": "Fred Hacking", "position": "FW", "value": 10.0},
+    {"player": "Rob Clark", "position": "FW", "value": 8.0},
+    {"player": "Morgan McGrath", "position": "FW", "value": 8.9}
   ]}
 ]
