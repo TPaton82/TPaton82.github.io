@@ -5,6 +5,11 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script>
+      $(document).ready(function(){
+          $(":button").css("background-color", "red");
+      });
+    </script>    
   </head>
   <body>
     <div class="container">
@@ -21,11 +26,14 @@
           <p>
             Hillcroft fantasy lacrosse is up and running, enter your teams by sep 30th 
           </p>
-          <script>
-            $(document).ready(function(){
-                $(":button").css("background-color", "red");
-            });
-          </script>
+          <form action="">
+            Name: <input type="text" name="user"><br>
+            Password: <input type="password" name="password"><br>
+            <button type="button">Useless Button</button>
+            <input type="button" value="Another useless button"><br>
+            <input type="reset" value="Reset">
+            <input type="submit" value="Submit"><br>
+          </form>
           <table class="table">
             <thead>
               <tr><th>Manager</th><th>Team Name</th><th>Total Points</th></tr>
